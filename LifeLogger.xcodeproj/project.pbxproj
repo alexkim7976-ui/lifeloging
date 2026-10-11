@@ -1,0 +1,1042 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04D1EFA290C04FF499CB8A1C /* DesktopWidgetGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8922F72BC71C417088DF147F /* DesktopWidgetGuideView.swift */; };
+		0D31842C84124A0690B93D36 /* FocusStatisticsEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612578F3CF4B47D4923B8804 /* FocusStatisticsEngine.swift */; };
+		1949BFA8E9F447EE85290A9A /* CategoryClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD9697DC3014D81842E9715 /* CategoryClassifier.swift */; };
+		1D9E8F7C6B5A4D3C2B1A0F9E /* CurrentActivityShareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3A1F2E4D5B4A1C9E8F7D6C /* CurrentActivityShareService.swift */; };
+		248B002B1B604263B7F5D968 /* ToggleTrackingIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9DF1FC46A24B62ABFD419A /* ToggleTrackingIntent.swift */; };
+		2A963150795949C99F101D01 /* SecureAppGroupWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D6314EE79F48D1B91CE773 /* SecureAppGroupWriter.swift */; };
+		2C3CA1F049F14E0683F70ED9 /* SharedStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B74EA5EDE7740EF91FC32AA /* SharedStatistics.swift */; };
+		3F8E7D6C5B4A39281706F5E4 /* MacShareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7D6C5B4A39281706F5E4D3 /* MacShareService.swift */; };
+		44502DD3B66343EC801CE7B2 /* NotchHUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350CA8D8D87E49DCAB47AD46 /* NotchHUDView.swift */; };
+		4AE198A01C794BD5B008D137 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C7FC2ECAB4419A5353039 /* DashboardView.swift */; };
+		4C2B1A0F9E8D7C6B5A493827 /* LocalContextService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F9E8D7C6B5A4938270615 /* LocalContextService.swift */; };
+		53AC6B2BF1F944B9A1958089 /* SecureClipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FD682499734A97A21BFE05 /* SecureClipboard.swift */; };
+		5A4938270615F4E3D2C1B0A9 /* LifeLoggerShareHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4938270615F4E3D2C1B0A9F8 /* LifeLoggerShareHelper.swift */; };
+		60A4A092EFAE4DFA8A57B59D /* FocusRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8762AEF85AC1401AB82061AA /* FocusRingView.swift */; };
+		60FB8004550F4C5C82AA9F03 /* ActivityTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C874F475360C45A8A5FA2895 /* ActivityTracker.swift */; };
+		64F3484FC0DF45E6BA7B19E1 /* ActivityTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C53F2C01964023B6F6EFA3 /* ActivityTimelineView.swift */; };
+		6A190D0C2B3A495887766554 /* CurrentActivityCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2A0E1D3C4B5A6988776655 /* CurrentActivityCardView.swift */; };
+		6B5A4938270615F4E3D2C1B0 /* FriendShareCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A4938270615F4E3D2C1B0A /* FriendShareCoordinator.swift */; };
+		6DD901AE66C64AEB8EB71DCF /* GoldenTimeAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62408FD0DE784BA49E97EC29 /* GoldenTimeAnalyzer.swift */; };
+		7253B176AB9D415F8A5D6C15 /* ActivityCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD2319ED00C4A489B0344BF /* ActivityCategory.swift */; };
+		774D5332DE044CB99A165AA4 /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFEC103912E4935A8C89F57 /* MenuBarController.swift */; };
+		77789FF641CE48A3B5D22CF2 /* LifeLoggerWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BD4A45E7995846C8A402FCC9 /* LifeLoggerWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7A03027FFF22413985C22E2C /* CategoryMappingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B1DE099FAF47B6B7D493BF /* CategoryMappingStore.swift */; };
+		7C6B5A4938270615F4E3D2C1 /* FriendShareSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B5A4938270615F4E3D2C1B /* FriendShareSheetView.swift */; };
+		8623F8E6E9AB42BAA223C85B /* CategoryMappingRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C921EA22A8094140BE4DB0F7 /* CategoryMappingRule.swift */; };
+		8637D64E93E24C05A8349012 /* WindowTitleExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996B1FAD794245E5A1872E49 /* WindowTitleExtractor.swift */; };
+		878B5430F99D43689EDC7DEC /* PrivacyDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AA7C8391614B41A15FA418 /* PrivacyDataStore.swift */; };
+		8B7B45A2664943FDA4AE5094 /* AppGroupConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD093B406F04E1A86696106 /* AppGroupConstants.swift */; };
+		8D22CDB3FC124F3DB2605BDC /* WidgetSyncHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADDAB45F1474EB89A95FC00 /* WidgetSyncHelper.swift */; };
+		8D7E6F5A4B3C291807162534 /* BloomieMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E6F5A4B3C291807162534 /* BloomieMessageFormatter.swift */; };
+		8F721E1ACAB84836A945F80C /* BloomieShareHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737346D594D541289CC4A710 /* BloomieShareHelper.swift */; };
+		9005D0ADFB574936BE62ED16 /* AFKDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FDABDB3CD34D1B9DCC42D6 /* AFKDetector.swift */; };
+		9332BD4C4C3041C8B60EB9A7 /* SecurityBootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1AF5B9ECA04FA58721C691 /* SecurityBootstrap.swift */; };
+		9B3EBB9273F243C58FED2C4A /* ActivityCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD2319ED00C4A489B0344BF /* ActivityCategory.swift */; };
+		9D2E5612B91B461DAF6CCBD6 /* PomodoroTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98790053A66645389E279D98 /* PomodoroTimer.swift */; };
+		9E8F7A6B5C4D3A2918071625 /* FriendMessageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F7A6B5C4D3A2918071625 /* FriendMessageStore.swift */; };
+		A5F6206A7CE744D4B40C19BE /* SecureInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79C33B489F47E79E57F97D /* SecureInputValidator.swift */; };
+		A837BC364E0C47BF93BB53E0 /* CategoryBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A59EBE7D1B4D7EB982DD76 /* CategoryBarChartView.swift */; };
+		AF918B7C6D5E4B3A29180716 /* MessageDeliveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F918B7C6D5E4B3A29180716 /* MessageDeliveryService.swift */; };
+		B0A29C8D7E6F5C4B3A291807 /* MessageCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A29C8D7E6F5C4B3A291807 /* MessageCenterView.swift */; };
+		B47E9BAC0E1248C9A2AE8B92 /* CategorySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC177FA903A474AA7FB33E5 /* CategorySettingsView.swift */; };
+		B7B1825310254BE58F477EA2 /* NotchHUDController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0A0E497F5E4D1694053475 /* NotchHUDController.swift */; };
+		C055A0EAD6A14509BF5C982C /* LiquidGlassStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8A3764FB74BA9BEF480DB /* LiquidGlassStyle.swift */; };
+		C1D8C1F1177B48948DD0D5D3 /* LifeLoggerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1905A9BC6EAA42328CE56D9B /* LifeLoggerApp.swift */; };
+		C2EC61C1D0EF4A1E90B5509D /* AppGroupConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD093B406F04E1A86696106 /* AppGroupConstants.swift */; };
+		C548C89787F54B3EBECCD75E /* ActivitySegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D678E6A1B34E6CAA14A72C /* ActivitySegment.swift */; };
+		C6D2B824E75F473DBBC53F93 /* LifeLoggerWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8302B4E567B48F1ADE28293 /* LifeLoggerWidget.swift */; };
+		D21E819C88144DC7B5F118FE /* LifeLoggerWidgetViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FB53DD8B7549B88BC9A2E3 /* LifeLoggerWidgetViews.swift */; };
+		D31DB9724216415B825EB870 /* FeedbackCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F795E6FFC1854FC790D58796 /* FeedbackCardView.swift */; };
+		D557691B62B742968DB6A112 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 00218D9D9D234042BD802CD9 /* PrivacyInfo.xcprivacy */; };
+		D92C3CEC2FEC461E007E5BC6 /* WidgetSyncHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADDAB45F1474EB89A95FC00 /* WidgetSyncHelper.swift */; };
+		D9A55E10000000000000B001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9A55E10000000000000A001 /* Assets.xcassets */; };
+		DCACF588BA864A3485FB5A98 /* SecureInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79C33B489F47E79E57F97D /* SecureInputValidator.swift */; };
+		E67C97A2821C463BA81EAE55 /* SecureAppGroupWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D6314EE79F48D1B91CE773 /* SecureAppGroupWriter.swift */; };
+		F1REBASEAUTH003 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F1REBASEAUTH001 /* FirebaseAuth */; };
+		F1REBASECORE003 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = F1REBASECORE001 /* FirebaseCore */; };
+		F1REBASEFS003 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F1REBASEFS001 /* FirebaseFirestore */; };
+		FDEC4952D84F44358DB4E62D /* SharedStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B74EA5EDE7740EF91FC32AA /* SharedStatistics.swift */; };
+		L10N001BUILD01 /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = L10N001APP01 /* AppLanguage.swift */; };
+		L10N002BUILD01 /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = L10N002APP01 /* L10n.swift */; };
+		L10N003BUILD01 /* L10nCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = L10N003APP01 /* L10nCatalog.swift */; };
+		L10N004BUILD01 /* ActivityCategory+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = L10N004LOC01 /* ActivityCategory+Localized.swift */; };
+		L10N005BUILD01 /* LanguageSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = L10N005LANG01 /* LanguageSelectionView.swift */; };
+		MMSG001MODEL02 /* MessengerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = MMSG001MODEL01 /* MessengerModels.swift */; };
+		MMSG002REPO02 /* MessengerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = MMSG002REPO01 /* MessengerRepository.swift */; };
+		MMSG003CONT02 /* MessengerModelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = MMSG003CONT01 /* MessengerModelContainer.swift */; };
+		MMSG004THEM02 /* BloomieMessengerTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = MMSG004THEM01 /* BloomieMessengerTheme.swift */; };
+		MMSG005COMP02 /* MessengerComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = MMSG005COMP01 /* MessengerComponents.swift */; };
+		MMSG006ROOT02 /* MessengerRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = MMSG006ROOT01 /* MessengerRootView.swift */; };
+		MMSG007HOME02 /* MessengerHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = MMSG007HOME01 /* MessengerHomeView.swift */; };
+		MMSG008INBX02 /* MessengerInboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = MMSG008INBX01 /* MessengerInboxView.swift */; };
+		MMSG009CHAT02 /* MessengerChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = MMSG009CHAT01 /* MessengerChatView.swift */; };
+		MMSG010AUTH02 /* BloomieCloudAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = MMSG010AUTH01 /* BloomieCloudAuthService.swift */; };
+		MMSG011CHAT02 /* BloomieCloudChatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = MMSG011CHAT01 /* BloomieCloudChatService.swift */; };
+		MMSG012ACCT02 /* MessengerAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = MMSG012ACCT01 /* MessengerAccountView.swift */; };
+		MMSG013PLST02 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = MMSG013PLST01 /* GoogleService-Info.plist */; };
+		MMSG014INAP02 /* BloomieInAppMessengerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = MMSG014INAP01 /* BloomieInAppMessengerService.swift */; };
+		MMSG015KEYC02 /* FirebaseAuthKeychainSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = MMSG015KEYC01 /* FirebaseAuthKeychainSupport.swift */; };
+		SOCAPP001SHARE02 /* SocialAppShareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = SOCAPP001SHARE01 /* SocialAppShareService.swift */; };
+		MACFEAT001BUILD01 /* mac_features.json in Resources */ = {isa = PBXBuildFile; fileRef = MACFEAT001JSON01 /* mac_features.json */; };
+		MACFEAT002BUILD01 /* MacFeatureCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = MACFEAT002CAT01 /* MacFeatureCatalog.swift */; };
+		MACFEAT003BUILD01 /* FeatureRoadmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = MACFEAT003ROAD01 /* FeatureRoadmapView.swift */; };
+		MACFEAT004BUILD01 /* CommandPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = MACFEAT004CMD01 /* CommandPaletteView.swift */; };
+		MACFEAT005BUILD01 /* MacFeatureModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = MACFEAT005MOD01 /* MacFeatureModels.swift */; };
+		MACFEAT006BUILD01 /* FeatureMetricsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = MACFEAT006MET01 /* FeatureMetricsStore.swift */; };
+		MACFEAT007BUILD01 /* ContextEnrichmentEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = MACFEAT007CTX01 /* ContextEnrichmentEngine.swift */; };
+		MACFEAT008BUILD01 /* MacFeatureRuntime.swift in Sources */ = {isa = PBXBuildFile; fileRef = MACFEAT008RUN01 /* MacFeatureRuntime.swift */; };
+		MACFEAT009BUILD01 /* MacFeatureServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = MACFEAT009SRV01 /* MacFeatureServices.swift */; };
+		MACFEAT010BUILD01 /* MacFeatureCategoryEngines.swift in Sources */ = {isa = PBXBuildFile; fileRef = MACFEAT010ENG01 /* MacFeatureCategoryEngines.swift */; };
+		MACFEAT011BUILD01 /* MacFeaturesHubCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = MACFEAT011HUB01 /* MacFeaturesHubCardView.swift */; };
+		MACFEAT012BUILD01 /* HardwareCapability.swift in Sources */ = {isa = PBXBuildFile; fileRef = MACFEAT012HW01 /* HardwareCapability.swift */; };
+		MACFEAT013BUILD01 /* LocalFeatureHTTPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = MACFEAT013HTTP01 /* LocalFeatureHTTPServer.swift */; };
+		MACFEAT014BUILD01 /* LifeLoggerNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = MACFEAT014NOT01 /* LifeLoggerNotifications.swift */; };
+		MACFEAT015BUILD01 /* ControlStripFallbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = MACFEAT015CSV01 /* ControlStripFallbackView.swift */; };
+		MACFEAT016BUILD01 /* ControlStripFallbackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = MACFEAT016CSC01 /* ControlStripFallbackController.swift */; };
+		MACFEAT017BUILD01 /* MacFeatureExtraEngines.swift in Sources */ = {isa = PBXBuildFile; fileRef = MACFEAT017ENG01 /* MacFeatureExtraEngines.swift */; };
+		MACFEAT018BUILD01 /* MacFeatureExtraServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = MACFEAT018SRV01 /* MacFeatureExtraServices.swift */; };
+		SPARKLEBUILD001 /* SparkleUpdaterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = SPARKLESRC001 /* SparkleUpdaterController.swift */; };
+		TESTBUILD001 /* FocusStatisticsEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TESTSRC001 /* FocusStatisticsEngineTests.swift */; };
+		WEBSHR001ACTIVITY02 /* ActivityWebShareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = WEBSHR001ACTIVITY01 /* ActivityWebShareService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		TESTPROXY001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D13E388EEB6349C7BCCCC778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EFCFC6E49574BEDB277900F;
+			remoteInfo = LifeLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA40B43C9F03499AA32BED18 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				77789FF641CE48A3B5D22CF2 /* LifeLoggerWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00218D9D9D234042BD802CD9 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		072C7FC2ECAB4419A5353039 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		14AA7C8391614B41A15FA418 /* PrivacyDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyDataStore.swift; sourceTree = "<group>"; };
+		1905A9BC6EAA42328CE56D9B /* LifeLoggerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeLoggerApp.swift; sourceTree = "<group>"; };
+		1A0F9E8D7C6B5A4938270615 /* LocalContextService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalContextService.swift; sourceTree = "<group>"; };
+		1C0A0E497F5E4D1694053475 /* NotchHUDController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchHUDController.swift; sourceTree = "<group>"; };
+		27C53F2C01964023B6F6EFA3 /* ActivityTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTimelineView.swift; sourceTree = "<group>"; };
+		2E7D6C5B4A39281706F5E4D3 /* MacShareService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacShareService.swift; sourceTree = "<group>"; };
+		2E9DF1FC46A24B62ABFD419A /* ToggleTrackingIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTrackingIntent.swift; sourceTree = "<group>"; };
+		350CA8D8D87E49DCAB47AD46 /* NotchHUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchHUDView.swift; sourceTree = "<group>"; };
+		3B1AF5B9ECA04FA58721C691 /* SecurityBootstrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityBootstrap.swift; sourceTree = "<group>"; };
+		46D678E6A1B34E6CAA14A72C /* ActivitySegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitySegment.swift; sourceTree = "<group>"; };
+		4938270615F4E3D2C1B0A9F8 /* LifeLoggerShareHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeLoggerShareHelper.swift; sourceTree = "<group>"; };
+		4CD9697DC3014D81842E9715 /* CategoryClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryClassifier.swift; sourceTree = "<group>"; };
+		52B1DE099FAF47B6B7D493BF /* CategoryMappingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryMappingStore.swift; sourceTree = "<group>"; };
+		612578F3CF4B47D4923B8804 /* FocusStatisticsEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStatisticsEngine.swift; sourceTree = "<group>"; };
+		62408FD0DE784BA49E97EC29 /* GoldenTimeAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldenTimeAnalyzer.swift; sourceTree = "<group>"; };
+		737346D594D541289CC4A710 /* BloomieShareHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomieShareHelper.swift; sourceTree = "<group>"; };
+		7B2A0E1D3C4B5A6988776655 /* CurrentActivityCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentActivityCardView.swift; sourceTree = "<group>"; };
+		7B74EA5EDE7740EF91FC32AA /* SharedStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedStatistics.swift; sourceTree = "<group>"; };
+		7CC177FA903A474AA7FB33E5 /* CategorySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySettingsView.swift; sourceTree = "<group>"; };
+		7EFEC103912E4935A8C89F57 /* MenuBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarController.swift; sourceTree = "<group>"; };
+		80FB53DD8B7549B88BC9A2E3 /* LifeLoggerWidgetViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeLoggerWidgetViews.swift; sourceTree = "<group>"; };
+		8762AEF85AC1401AB82061AA /* FocusRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusRingView.swift; sourceTree = "<group>"; };
+		8922F72BC71C417088DF147F /* DesktopWidgetGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopWidgetGuideView.swift; sourceTree = "<group>"; };
+		8C3A1F2E4D5B4A1C9E8F7D6C /* CurrentActivityShareService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentActivityShareService.swift; sourceTree = "<group>"; };
+		91A59EBE7D1B4D7EB982DD76 /* CategoryBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryBarChartView.swift; sourceTree = "<group>"; };
+		91F6BC8F0F214AD79EE9C5D9 /* LifeLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98790053A66645389E279D98 /* PomodoroTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroTimer.swift; sourceTree = "<group>"; };
+		996B1FAD794245E5A1872E49 /* WindowTitleExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowTitleExtractor.swift; sourceTree = "<group>"; };
+		A0A29C8D7E6F5C4B3A291807 /* MessageCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCenterView.swift; sourceTree = "<group>"; };
+		AA79C33B489F47E79E57F97D /* SecureInputValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureInputValidator.swift; sourceTree = "<group>"; };
+		ADA8A3764FB74BA9BEF480DB /* LiquidGlassStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidGlassStyle.swift; sourceTree = "<group>"; };
+		B5A4938270615F4E3D2C1B0A /* FriendShareCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendShareCoordinator.swift; sourceTree = "<group>"; };
+		B8302B4E567B48F1ADE28293 /* LifeLoggerWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeLoggerWidget.swift; sourceTree = "<group>"; };
+		BD4A45E7995846C8A402FCC9 /* LifeLoggerWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LifeLoggerWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B5A4938270615F4E3D2C1B /* FriendShareSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendShareSheetView.swift; sourceTree = "<group>"; };
+		C874F475360C45A8A5FA2895 /* ActivityTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTracker.swift; sourceTree = "<group>"; };
+		C921EA22A8094140BE4DB0F7 /* CategoryMappingRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryMappingRule.swift; sourceTree = "<group>"; };
+		D3FD682499734A97A21BFE05 /* SecureClipboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureClipboard.swift; sourceTree = "<group>"; };
+		D7E6F5A4B3C291807162534 /* BloomieMessageFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomieMessageFormatter.swift; sourceTree = "<group>"; };
+		D7FDABDB3CD34D1B9DCC42D6 /* AFKDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFKDetector.swift; sourceTree = "<group>"; };
+		D9A55E10000000000000A001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DADDAB45F1474EB89A95FC00 /* WidgetSyncHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSyncHelper.swift; sourceTree = "<group>"; };
+		E8F7A6B5C4D3A2918071625 /* FriendMessageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendMessageStore.swift; sourceTree = "<group>"; };
+		F4D6314EE79F48D1B91CE773 /* SecureAppGroupWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureAppGroupWriter.swift; sourceTree = "<group>"; };
+		F795E6FFC1854FC790D58796 /* FeedbackCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackCardView.swift; sourceTree = "<group>"; };
+		F918B7C6D5E4B3A29180716 /* MessageDeliveryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDeliveryService.swift; sourceTree = "<group>"; };
+		FCD2319ED00C4A489B0344BF /* ActivityCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCategory.swift; sourceTree = "<group>"; };
+		FFD093B406F04E1A86696106 /* AppGroupConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroupConstants.swift; sourceTree = "<group>"; };
+		L10N001APP01 /* AppLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLanguage.swift; sourceTree = "<group>"; };
+		L10N002APP01 /* L10n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
+		L10N003APP01 /* L10nCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L10nCatalog.swift; sourceTree = "<group>"; };
+		L10N004LOC01 /* ActivityCategory+Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActivityCategory+Localized.swift"; sourceTree = "<group>"; };
+		L10N005LANG01 /* LanguageSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectionView.swift; sourceTree = "<group>"; };
+		MACFEAT001JSON01 /* mac_features.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mac_features.json; sourceTree = "<group>"; };
+		MACFEAT002CAT01 /* MacFeatureCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacFeatureCatalog.swift; sourceTree = "<group>"; };
+		MACFEAT003ROAD01 /* FeatureRoadmapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureRoadmapView.swift; sourceTree = "<group>"; };
+		MACFEAT004CMD01 /* CommandPaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPaletteView.swift; sourceTree = "<group>"; };
+		MACFEAT005MOD01 /* MacFeatureModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacFeatureModels.swift; sourceTree = "<group>"; };
+		MACFEAT006MET01 /* FeatureMetricsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureMetricsStore.swift; sourceTree = "<group>"; };
+		MACFEAT007CTX01 /* ContextEnrichmentEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextEnrichmentEngine.swift; sourceTree = "<group>"; };
+		MACFEAT008RUN01 /* MacFeatureRuntime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacFeatureRuntime.swift; sourceTree = "<group>"; };
+		MACFEAT009SRV01 /* MacFeatureServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacFeatureServices.swift; sourceTree = "<group>"; };
+		MACFEAT010ENG01 /* MacFeatureCategoryEngines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacFeatureCategoryEngines.swift; sourceTree = "<group>"; };
+		MACFEAT011HUB01 /* MacFeaturesHubCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacFeaturesHubCardView.swift; sourceTree = "<group>"; };
+		MACFEAT012HW01 /* HardwareCapability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardwareCapability.swift; sourceTree = "<group>"; };
+		MACFEAT013HTTP01 /* LocalFeatureHTTPServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeatureHTTPServer.swift; sourceTree = "<group>"; };
+		MACFEAT014NOT01 /* LifeLoggerNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeLoggerNotifications.swift; sourceTree = "<group>"; };
+		MACFEAT015CSV01 /* ControlStripFallbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlStripFallbackView.swift; sourceTree = "<group>"; };
+		MACFEAT016CSC01 /* ControlStripFallbackController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlStripFallbackController.swift; sourceTree = "<group>"; };
+		MACFEAT017ENG01 /* MacFeatureExtraEngines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacFeatureExtraEngines.swift; sourceTree = "<group>"; };
+		MACFEAT018SRV01 /* MacFeatureExtraServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacFeatureExtraServices.swift; sourceTree = "<group>"; };
+		MMSG001MODEL01 /* MessengerModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerModels.swift; sourceTree = "<group>"; };
+		MMSG002REPO01 /* MessengerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerRepository.swift; sourceTree = "<group>"; };
+		MMSG003CONT01 /* MessengerModelContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerModelContainer.swift; sourceTree = "<group>"; };
+		MMSG004THEM01 /* BloomieMessengerTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomieMessengerTheme.swift; sourceTree = "<group>"; };
+		MMSG005COMP01 /* MessengerComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerComponents.swift; sourceTree = "<group>"; };
+		MMSG006ROOT01 /* MessengerRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerRootView.swift; sourceTree = "<group>"; };
+		MMSG007HOME01 /* MessengerHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerHomeView.swift; sourceTree = "<group>"; };
+		MMSG008INBX01 /* MessengerInboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerInboxView.swift; sourceTree = "<group>"; };
+		MMSG009CHAT01 /* MessengerChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerChatView.swift; sourceTree = "<group>"; };
+		MMSG010AUTH01 /* BloomieCloudAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomieCloudAuthService.swift; sourceTree = "<group>"; };
+		MMSG011CHAT01 /* BloomieCloudChatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomieCloudChatService.swift; sourceTree = "<group>"; };
+		MMSG012ACCT01 /* MessengerAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerAccountView.swift; sourceTree = "<group>"; };
+		MMSG013PLST01 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		MMSG014INAP01 /* BloomieInAppMessengerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloomieInAppMessengerService.swift; sourceTree = "<group>"; };
+		MMSG015KEYC01 /* FirebaseAuthKeychainSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthKeychainSupport.swift; sourceTree = "<group>"; };
+		SOCAPP001SHARE01 /* SocialAppShareService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialAppShareService.swift; sourceTree = "<group>"; };
+		SPARKLESRC001 /* SparkleUpdaterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkleUpdaterController.swift; sourceTree = "<group>"; };
+		TESTPROD001 /* LifeLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		TESTSRC001 /* FocusStatisticsEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStatisticsEngineTests.swift; sourceTree = "<group>"; };
+		WEBSHR001ACTIVITY01 /* ActivityWebShareService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityWebShareService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47D80968EC9840969364FFB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1REBASEAUTH003 /* FirebaseAuth in Frameworks */,
+				F1REBASECORE003 /* FirebaseCore in Frameworks */,
+				F1REBASEFS003 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA3B7865803492F98804771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		TESTFRAME001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041558AE999540C4865AA0F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91F6BC8F0F214AD79EE9C5D9 /* LifeLogger.app */,
+				BD4A45E7995846C8A402FCC9 /* LifeLoggerWidget.appex */,
+				TESTPROD001 /* LifeLoggerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05363C42C4394999BDF6C056 /* Sharing */ = {
+			isa = PBXGroup;
+			children = (
+				737346D594D541289CC4A710 /* BloomieShareHelper.swift */,
+				SOCAPP001SHARE01 /* SocialAppShareService.swift */,
+				8C3A1F2E4D5B4A1C9E8F7D6C /* CurrentActivityShareService.swift */,
+				2E7D6C5B4A39281706F5E4D3 /* MacShareService.swift */,
+				WEBSHR001ACTIVITY01 /* ActivityWebShareService.swift */,
+				4938270615F4E3D2C1B0A9F8 /* LifeLoggerShareHelper.swift */,
+				B5A4938270615F4E3D2C1B0A /* FriendShareCoordinator.swift */,
+			);
+			path = Sharing;
+			sourceTree = "<group>";
+		};
+		05B6672C02764EA5B9F3CE4B /* MenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				7EFEC103912E4935A8C89F57 /* MenuBarController.swift */,
+			);
+			path = MenuBar;
+			sourceTree = "<group>";
+		};
+		1D9B4A11EE634BF991E6C4D3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4CD9697DC3014D81842E9715 /* CategoryClassifier.swift */,
+				52B1DE099FAF47B6B7D493BF /* CategoryMappingStore.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		211053EE91D44EABAB82A2C5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				48A88AA4B68447E684B505E3 /* Components */,
+				6E6842ABB142402CB991A862 /* Dashboard */,
+				MACFEATGRP001 /* Features */,
+				05B6672C02764EA5B9F3CE4B /* MenuBar */,
+				MMSGGRP000002 /* Messenger */,
+				50C3CC16758A437D8CE31EF8 /* Notch */,
+				A8270615F4E3D2C1B0A9F8E /* Sharing */,
+				2621901EEB0943E7AE7A5E75 /* Settings */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		25180590E7FB42A0B5B4E3BE = {
+			isa = PBXGroup;
+			children = (
+				2BAA3E9345B944F5B6E44921 /* LifeLogger */,
+				AC177BDABA3E494F83775EAC /* LifeLoggerWidget */,
+				8C84E7C153844783A2AC247C /* Shared */,
+				TESTGRP001 /* LifeLoggerTests */,
+				041558AE999540C4865AA0F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2621901EEB0943E7AE7A5E75 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7CC177FA903A474AA7FB33E5 /* CategorySettingsView.swift */,
+				L10N005LANG01 /* LanguageSelectionView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		264BDF154A3E430EA150CFC6 /* Pomodoro */ = {
+			isa = PBXGroup;
+			children = (
+				98790053A66645389E279D98 /* PomodoroTimer.swift */,
+			);
+			path = Pomodoro;
+			sourceTree = "<group>";
+		};
+		2BAA3E9345B944F5B6E44921 /* LifeLogger */ = {
+			isa = PBXGroup;
+			children = (
+				D9A55E10000000000000A001 /* Assets.xcassets */,
+				CF3B176F771E4A3B9F6C8B6A /* Core */,
+				L10NGRP000001 /* Extensions */,
+				1905A9BC6EAA42328CE56D9B /* LifeLoggerApp.swift */,
+				MMSG013PLST01 /* GoogleService-Info.plist */,
+				00218D9D9D234042BD802CD9 /* PrivacyInfo.xcprivacy */,
+				MACFEATGRP003 /* Resources */,
+				EBA2C5D4E2B64D5EA55C90A5 /* Services */,
+				211053EE91D44EABAB82A2C5 /* UI */,
+			);
+			path = LifeLogger;
+			sourceTree = "<group>";
+		};
+		48A88AA4B68447E684B505E3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				ADA8A3764FB74BA9BEF480DB /* LiquidGlassStyle.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		50C3CC16758A437D8CE31EF8 /* Notch */ = {
+			isa = PBXGroup;
+			children = (
+				350CA8D8D87E49DCAB47AD46 /* NotchHUDView.swift */,
+				1C0A0E497F5E4D1694053475 /* NotchHUDController.swift */,
+			);
+			path = Notch;
+			sourceTree = "<group>";
+		};
+		5E5D32E5CE6D40E5BB88F406 /* Insights */ = {
+			isa = PBXGroup;
+			children = (
+				62408FD0DE784BA49E97EC29 /* GoldenTimeAnalyzer.swift */,
+			);
+			path = Insights;
+			sourceTree = "<group>";
+		};
+		6E6842ABB142402CB991A862 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				27C53F2C01964023B6F6EFA3 /* ActivityTimelineView.swift */,
+				91A59EBE7D1B4D7EB982DD76 /* CategoryBarChartView.swift */,
+				072C7FC2ECAB4419A5353039 /* DashboardView.swift */,
+				7B2A0E1D3C4B5A6988776655 /* CurrentActivityCardView.swift */,
+				8922F72BC71C417088DF147F /* DesktopWidgetGuideView.swift */,
+				F795E6FFC1854FC790D58796 /* FeedbackCardView.swift */,
+				8762AEF85AC1401AB82061AA /* FocusRingView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		8C84E7C153844783A2AC247C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FCD2319ED00C4A489B0344BF /* ActivityCategory.swift */,
+				FFD093B406F04E1A86696106 /* AppGroupConstants.swift */,
+				7B74EA5EDE7740EF91FC32AA /* SharedStatistics.swift */,
+				DADDAB45F1474EB89A95FC00 /* WidgetSyncHelper.swift */,
+				F4D6314EE79F48D1B91CE773 /* SecureAppGroupWriter.swift */,
+				AA79C33B489F47E79E57F97D /* SecureInputValidator.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A8270615F4E3D2C1B0A9F8E /* Sharing */ = {
+			isa = PBXGroup;
+			children = (
+				C6B5A4938270615F4E3D2C1B /* FriendShareSheetView.swift */,
+				A0A29C8D7E6F5C4B3A291807 /* MessageCenterView.swift */,
+			);
+			path = Sharing;
+			sourceTree = "<group>";
+		};
+		AC177BDABA3E494F83775EAC /* LifeLoggerWidget */ = {
+			isa = PBXGroup;
+			children = (
+				B8302B4E567B48F1ADE28293 /* LifeLoggerWidget.swift */,
+				2E9DF1FC46A24B62ABFD419A /* ToggleTrackingIntent.swift */,
+				80FB53DD8B7549B88BC9A2E3 /* LifeLoggerWidgetViews.swift */,
+			);
+			path = LifeLoggerWidget;
+			sourceTree = "<group>";
+		};
+		ACCDCDEE08A64A81A266E515 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				46D678E6A1B34E6CAA14A72C /* ActivitySegment.swift */,
+				C921EA22A8094140BE4DB0F7 /* CategoryMappingRule.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B376D6DD544943CAA661CB4A /* Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				D7FDABDB3CD34D1B9DCC42D6 /* AFKDetector.swift */,
+				C874F475360C45A8A5FA2895 /* ActivityTracker.swift */,
+				996B1FAD794245E5A1872E49 /* WindowTitleExtractor.swift */,
+			);
+			path = Tracking;
+			sourceTree = "<group>";
+		};
+		C291807162534D7E6F5A4B3 /* Messaging */ = {
+			isa = PBXGroup;
+			children = (
+				D7E6F5A4B3C291807162534 /* BloomieMessageFormatter.swift */,
+				E8F7A6B5C4D3A2918071625 /* FriendMessageStore.swift */,
+				F918B7C6D5E4B3A29180716 /* MessageDeliveryService.swift */,
+			);
+			path = Messaging;
+			sourceTree = "<group>";
+		};
+		MACFEATGRP001 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				MACFEAT003ROAD01 /* FeatureRoadmapView.swift */,
+				MACFEAT004CMD01 /* CommandPaletteView.swift */,
+				MACFEAT011HUB01 /* MacFeaturesHubCardView.swift */,
+				MACFEAT015CSV01 /* ControlStripFallbackView.swift */,
+				MACFEAT016CSC01 /* ControlStripFallbackController.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		MACFEATGRP002 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				MACFEAT002CAT01 /* MacFeatureCatalog.swift */,
+				MACFEAT005MOD01 /* MacFeatureModels.swift */,
+				MACFEAT006MET01 /* FeatureMetricsStore.swift */,
+				MACFEAT007CTX01 /* ContextEnrichmentEngine.swift */,
+				MACFEAT008RUN01 /* MacFeatureRuntime.swift */,
+				MACFEAT009SRV01 /* MacFeatureServices.swift */,
+				MACFEAT010ENG01 /* MacFeatureCategoryEngines.swift */,
+				MACFEAT012HW01 /* HardwareCapability.swift */,
+				MACFEAT013HTTP01 /* LocalFeatureHTTPServer.swift */,
+				MACFEAT014NOT01 /* LifeLoggerNotifications.swift */,
+				MACFEAT017ENG01 /* MacFeatureExtraEngines.swift */,
+				MACFEAT018SRV01 /* MacFeatureExtraServices.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		MACFEATGRP003 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				MACFEAT001JSON01 /* mac_features.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CF3B176F771E4A3B9F6C8B6A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1D9B4A11EE634BF991E6C4D3 /* Category */,
+				MACFEATGRP002 /* Features */,
+				5E5D32E5CE6D40E5BB88F406 /* Insights */,
+				C291807162534D7E6F5A4B3 /* Messaging */,
+				MMSGGRP000001 /* Messenger */,
+				ACCDCDEE08A64A81A266E515 /* Models */,
+				264BDF154A3E430EA150CFC6 /* Pomodoro */,
+				05363C42C4394999BDF6C056 /* Sharing */,
+				E36A0481614144899956BFFA /* Statistics */,
+				B376D6DD544943CAA661CB4A /* Tracking */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E36A0481614144899956BFFA /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				612578F3CF4B47D4923B8804 /* FocusStatisticsEngine.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		EBA2C5D4E2B64D5EA55C90A5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				L10N001APP01 /* AppLanguage.swift */,
+				L10N002APP01 /* L10n.swift */,
+				L10N003APP01 /* L10nCatalog.swift */,
+				14AA7C8391614B41A15FA418 /* PrivacyDataStore.swift */,
+				3B1AF5B9ECA04FA58721C691 /* SecurityBootstrap.swift */,
+				D3FD682499734A97A21BFE05 /* SecureClipboard.swift */,
+				1A0F9E8D7C6B5A4938270615 /* LocalContextService.swift */,
+				SPARKLESRC001 /* SparkleUpdaterController.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		L10NGRP000001 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				L10N004LOC01 /* ActivityCategory+Localized.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		MMSGGRP000001 /* Messenger */ = {
+			isa = PBXGroup;
+			children = (
+				MMSG010AUTH01 /* BloomieCloudAuthService.swift */,
+				MMSG011CHAT01 /* BloomieCloudChatService.swift */,
+				MMSG014INAP01 /* BloomieInAppMessengerService.swift */,
+				MMSG015KEYC01 /* FirebaseAuthKeychainSupport.swift */,
+				MMSG001MODEL01 /* MessengerModels.swift */,
+				MMSG002REPO01 /* MessengerRepository.swift */,
+				MMSG003CONT01 /* MessengerModelContainer.swift */,
+			);
+			path = Messenger;
+			sourceTree = "<group>";
+		};
+		MMSGGRP000002 /* Messenger */ = {
+			isa = PBXGroup;
+			children = (
+				MMSG012ACCT01 /* MessengerAccountView.swift */,
+				MMSG004THEM01 /* BloomieMessengerTheme.swift */,
+				MMSG005COMP01 /* MessengerComponents.swift */,
+				MMSG006ROOT01 /* MessengerRootView.swift */,
+				MMSG007HOME01 /* MessengerHomeView.swift */,
+				MMSG008INBX01 /* MessengerInboxView.swift */,
+				MMSG009CHAT01 /* MessengerChatView.swift */,
+			);
+			path = Messenger;
+			sourceTree = "<group>";
+		};
+		TESTGRP001 /* LifeLoggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				TESTSRC001 /* FocusStatisticsEngineTests.swift */,
+			);
+			path = LifeLoggerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ED8EEA73B5A4F498B192072 /* LifeLoggerWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D490E19E352B44018C1E1898 /* Build configuration list for PBXNativeTarget "LifeLoggerWidget" */;
+			buildPhases = (
+				FAB6597EDE9940D3854DAAD4 /* Sources */,
+				6EA3B7865803492F98804771 /* Frameworks */,
+				0C9F282CD9AD48279375C7AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifeLoggerWidget;
+			productName = LifeLoggerWidget;
+			productReference = BD4A45E7995846C8A402FCC9 /* LifeLoggerWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		3EFCFC6E49574BEDB277900F /* LifeLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78664360AD43406B959973C4 /* Build configuration list for PBXNativeTarget "LifeLogger" */;
+			buildPhases = (
+				3ACD713CC5364F7AB83C027C /* Sources */,
+				47D80968EC9840969364FFB8 /* Frameworks */,
+				592185A6E3594BFF9BA4E35D /* Resources */,
+				FA40B43C9F03499AA32BED18 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifeLogger;
+			packageProductDependencies = (
+				F1REBASEAUTH001 /* FirebaseAuth */,
+				F1REBASECORE001 /* FirebaseCore */,
+				F1REBASEFS001 /* FirebaseFirestore */,
+			);
+			productName = LifeLogger;
+			productReference = 91F6BC8F0F214AD79EE9C5D9 /* LifeLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		TESTTARGET001 /* LifeLoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = TESTCFGLIST001 /* Build configuration list for PBXNativeTarget "LifeLoggerTests" */;
+			buildPhases = (
+				TESTSRCPHASE001 /* Sources */,
+				TESTFRAME001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				TESTDEP001 /* PBXTargetDependency */,
+			);
+			name = LifeLoggerTests;
+			productName = LifeLoggerTests;
+			productReference = TESTPROD001 /* LifeLoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D13E388EEB6349C7BCCCC778 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 67F4CD593D2F405790E817AD /* Build configuration list for PBXProject "LifeLogger" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ko;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ko,
+				Base,
+			);
+			mainGroup = 25180590E7FB42A0B5B4E3BE;
+			packageReferences = (
+				F1REBASEPKGREF001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 041558AE999540C4865AA0F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EFCFC6E49574BEDB277900F /* LifeLogger */,
+				1ED8EEA73B5A4F498B192072 /* LifeLoggerWidget */,
+				TESTTARGET001 /* LifeLoggerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C9F282CD9AD48279375C7AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592185A6E3594BFF9BA4E35D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A55E10000000000000B001 /* Assets.xcassets in Resources */,
+				D557691B62B742968DB6A112 /* PrivacyInfo.xcprivacy in Resources */,
+				MACFEAT001BUILD01 /* mac_features.json in Resources */,
+				MMSG013PLST02 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ACD713CC5364F7AB83C027C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1949BFA8E9F447EE85290A9A /* CategoryClassifier.swift in Sources */,
+				7A03027FFF22413985C22E2C /* CategoryMappingStore.swift in Sources */,
+				6DD901AE66C64AEB8EB71DCF /* GoldenTimeAnalyzer.swift in Sources */,
+				C548C89787F54B3EBECCD75E /* ActivitySegment.swift in Sources */,
+				8623F8E6E9AB42BAA223C85B /* CategoryMappingRule.swift in Sources */,
+				9D2E5612B91B461DAF6CCBD6 /* PomodoroTimer.swift in Sources */,
+				8F721E1ACAB84836A945F80C /* BloomieShareHelper.swift in Sources */,
+				SOCAPP001SHARE02 /* SocialAppShareService.swift in Sources */,
+				1D9E8F7C6B5A4D3C2B1A0F9E /* CurrentActivityShareService.swift in Sources */,
+				3F8E7D6C5B4A39281706F5E4 /* MacShareService.swift in Sources */,
+				WEBSHR001ACTIVITY02 /* ActivityWebShareService.swift in Sources */,
+				5A4938270615F4E3D2C1B0A9 /* LifeLoggerShareHelper.swift in Sources */,
+				6B5A4938270615F4E3D2C1B0 /* FriendShareCoordinator.swift in Sources */,
+				7C6B5A4938270615F4E3D2C1 /* FriendShareSheetView.swift in Sources */,
+				8D7E6F5A4B3C291807162534 /* BloomieMessageFormatter.swift in Sources */,
+				9E8F7A6B5C4D3A2918071625 /* FriendMessageStore.swift in Sources */,
+				AF918B7C6D5E4B3A29180716 /* MessageDeliveryService.swift in Sources */,
+				B0A29C8D7E6F5C4B3A291807 /* MessageCenterView.swift in Sources */,
+				MMSG001MODEL02 /* MessengerModels.swift in Sources */,
+				MMSG002REPO02 /* MessengerRepository.swift in Sources */,
+				MMSG003CONT02 /* MessengerModelContainer.swift in Sources */,
+				MMSG004THEM02 /* BloomieMessengerTheme.swift in Sources */,
+				MMSG005COMP02 /* MessengerComponents.swift in Sources */,
+				MMSG006ROOT02 /* MessengerRootView.swift in Sources */,
+				MMSG007HOME02 /* MessengerHomeView.swift in Sources */,
+				MMSG008INBX02 /* MessengerInboxView.swift in Sources */,
+				MMSG009CHAT02 /* MessengerChatView.swift in Sources */,
+				MMSG010AUTH02 /* BloomieCloudAuthService.swift in Sources */,
+				MMSG011CHAT02 /* BloomieCloudChatService.swift in Sources */,
+				MMSG014INAP02 /* BloomieInAppMessengerService.swift in Sources */,
+				MMSG015KEYC02 /* FirebaseAuthKeychainSupport.swift in Sources */,
+				MMSG012ACCT02 /* MessengerAccountView.swift in Sources */,
+				0D31842C84124A0690B93D36 /* FocusStatisticsEngine.swift in Sources */,
+				9005D0ADFB574936BE62ED16 /* AFKDetector.swift in Sources */,
+				60FB8004550F4C5C82AA9F03 /* ActivityTracker.swift in Sources */,
+				8637D64E93E24C05A8349012 /* WindowTitleExtractor.swift in Sources */,
+				C1D8C1F1177B48948DD0D5D3 /* LifeLoggerApp.swift in Sources */,
+				878B5430F99D43689EDC7DEC /* PrivacyDataStore.swift in Sources */,
+				C055A0EAD6A14509BF5C982C /* LiquidGlassStyle.swift in Sources */,
+				64F3484FC0DF45E6BA7B19E1 /* ActivityTimelineView.swift in Sources */,
+				A837BC364E0C47BF93BB53E0 /* CategoryBarChartView.swift in Sources */,
+				4AE198A01C794BD5B008D137 /* DashboardView.swift in Sources */,
+				6A190D0C2B3A495887766554 /* CurrentActivityCardView.swift in Sources */,
+				D31DB9724216415B825EB870 /* FeedbackCardView.swift in Sources */,
+				60A4A092EFAE4DFA8A57B59D /* FocusRingView.swift in Sources */,
+				774D5332DE044CB99A165AA4 /* MenuBarController.swift in Sources */,
+				44502DD3B66343EC801CE7B2 /* NotchHUDView.swift in Sources */,
+				B7B1825310254BE58F477EA2 /* NotchHUDController.swift in Sources */,
+				B47E9BAC0E1248C9A2AE8B92 /* CategorySettingsView.swift in Sources */,
+				L10N005BUILD01 /* LanguageSelectionView.swift in Sources */,
+				04D1EFA290C04FF499CB8A1C /* DesktopWidgetGuideView.swift in Sources */,
+				9B3EBB9273F243C58FED2C4A /* ActivityCategory.swift in Sources */,
+				C2EC61C1D0EF4A1E90B5509D /* AppGroupConstants.swift in Sources */,
+				2C3CA1F049F14E0683F70ED9 /* SharedStatistics.swift in Sources */,
+				8D22CDB3FC124F3DB2605BDC /* WidgetSyncHelper.swift in Sources */,
+				9332BD4C4C3041C8B60EB9A7 /* SecurityBootstrap.swift in Sources */,
+				L10N001BUILD01 /* AppLanguage.swift in Sources */,
+				L10N002BUILD01 /* L10n.swift in Sources */,
+				L10N003BUILD01 /* L10nCatalog.swift in Sources */,
+				L10N004BUILD01 /* ActivityCategory+Localized.swift in Sources */,
+				53AC6B2BF1F944B9A1958089 /* SecureClipboard.swift in Sources */,
+				4C2B1A0F9E8D7C6B5A493827 /* LocalContextService.swift in Sources */,
+				E67C97A2821C463BA81EAE55 /* SecureAppGroupWriter.swift in Sources */,
+				A5F6206A7CE744D4B40C19BE /* SecureInputValidator.swift in Sources */,
+				SPARKLEBUILD001 /* SparkleUpdaterController.swift in Sources */,
+				MACFEAT002BUILD01 /* MacFeatureCatalog.swift in Sources */,
+				MACFEAT003BUILD01 /* FeatureRoadmapView.swift in Sources */,
+				MACFEAT004BUILD01 /* CommandPaletteView.swift in Sources */,
+				MACFEAT005BUILD01 /* MacFeatureModels.swift in Sources */,
+				MACFEAT006BUILD01 /* FeatureMetricsStore.swift in Sources */,
+				MACFEAT007BUILD01 /* ContextEnrichmentEngine.swift in Sources */,
+				MACFEAT008BUILD01 /* MacFeatureRuntime.swift in Sources */,
+				MACFEAT009BUILD01 /* MacFeatureServices.swift in Sources */,
+				MACFEAT010BUILD01 /* MacFeatureCategoryEngines.swift in Sources */,
+				MACFEAT011BUILD01 /* MacFeaturesHubCardView.swift in Sources */,
+				MACFEAT012BUILD01 /* HardwareCapability.swift in Sources */,
+				MACFEAT013BUILD01 /* LocalFeatureHTTPServer.swift in Sources */,
+				MACFEAT014BUILD01 /* LifeLoggerNotifications.swift in Sources */,
+				MACFEAT015BUILD01 /* ControlStripFallbackView.swift in Sources */,
+				MACFEAT016BUILD01 /* ControlStripFallbackController.swift in Sources */,
+				MACFEAT017BUILD01 /* MacFeatureExtraEngines.swift in Sources */,
+				MACFEAT018BUILD01 /* MacFeatureExtraServices.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB6597EDE9940D3854DAAD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6D2B824E75F473DBBC53F93 /* LifeLoggerWidget.swift in Sources */,
+				248B002B1B604263B7F5D968 /* ToggleTrackingIntent.swift in Sources */,
+				D21E819C88144DC7B5F118FE /* LifeLoggerWidgetViews.swift in Sources */,
+				7253B176AB9D415F8A5D6C15 /* ActivityCategory.swift in Sources */,
+				8B7B45A2664943FDA4AE5094 /* AppGroupConstants.swift in Sources */,
+				FDEC4952D84F44358DB4E62D /* SharedStatistics.swift in Sources */,
+				D92C3CEC2FEC461E007E5BC6 /* WidgetSyncHelper.swift in Sources */,
+				2A963150795949C99F101D01 /* SecureAppGroupWriter.swift in Sources */,
+				DCACF588BA864A3485FB5A98 /* SecureInputValidator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		TESTSRCPHASE001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				TESTBUILD001 /* FocusStatisticsEngineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		TESTDEP001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EFCFC6E49574BEDB277900F /* LifeLogger */;
+			targetProxy = TESTPROXY001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		82E01747E9024D4C869B45EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = LifeLogger/LifeLogger.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SPJSUD7XBZ;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LifeLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifelogger.taehyeon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_STRICT_CONCURRENCY = complete;
+			};
+			name = Debug;
+		};
+		8E99B1213F8B4BC1B953B278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LifeLoggerWidget/LifeLoggerWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = SPJSUD7XBZ;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LifeLoggerWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifelogger.taehyeon.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+			};
+			name = Debug;
+		};
+		AD30A9DC1C2F4329BC229C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		E5C2B4CD5D31433AB86E3E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LifeLoggerWidget/LifeLoggerWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = SPJSUD7XBZ;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LifeLoggerWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifelogger.taehyeon.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+			};
+			name = Release;
+		};
+		F285F97450F94C4BA9161AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = LifeLogger/LifeLogger.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = SPJSUD7XBZ;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LifeLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifelogger.taehyeon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_STRICT_CONCURRENCY = complete;
+			};
+			name = Release;
+		};
+		FFFF3F5D34BA477DA1AAF63B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		TESTCFGDBG001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SPJSUD7XBZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifelogger.taehyeon.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeLogger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LifeLogger";
+			};
+			name = Debug;
+		};
+		TESTCFGREL001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SPJSUD7XBZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifelogger.taehyeon.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeLogger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LifeLogger";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67F4CD593D2F405790E817AD /* Build configuration list for PBXProject "LifeLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD30A9DC1C2F4329BC229C47 /* Debug */,
+				FFFF3F5D34BA477DA1AAF63B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78664360AD43406B959973C4 /* Build configuration list for PBXNativeTarget "LifeLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E01747E9024D4C869B45EC /* Debug */,
+				F285F97450F94C4BA9161AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D490E19E352B44018C1E1898 /* Build configuration list for PBXNativeTarget "LifeLoggerWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E99B1213F8B4BC1B953B278 /* Debug */,
+				E5C2B4CD5D31433AB86E3E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		TESTCFGLIST001 /* Build configuration list for PBXNativeTarget "LifeLoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				TESTCFGDBG001 /* Debug */,
+				TESTCFGREL001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F1REBASEPKGREF001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F1REBASEAUTH001 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1REBASEPKGREF001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F1REBASECORE001 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1REBASEPKGREF001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		F1REBASEFS001 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1REBASEPKGREF001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D13E388EEB6349C7BCCCC778 /* Project object */;
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>ko</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.lifelogger.app</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>LifeLogger</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>LSUIElement</key>
+	<false/>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2026 LifeLogger. All rights reserved.</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>LifeLogger는 bloomie 앱과 현재 활동을 공유하기 위해 Apple Events를 사용합니다.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>LifeLogger는 대시보드에 현재 지역과 시간을 표시하기 위해 대략적인 위치를 사용합니다. 위치 정보는 기기에만 사용되며 저장·전송되지 않습니다.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>LifeLogger는 타임라인에 오늘 캘린더 일정을 겹쳐 표시해 회의와 실작업을 비교합니다. 캘린더 데이터는 기기에만 사용되며 전송되지 않습니다.</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>bloomie</string>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+	</dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.lifelogger.app</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>lifelogger</string>
+			</array>
+		</dict>
+	</array>
+	<key>SUFeedURL</key>
+	<string>https://lifelogger.app/appcast.xml</string>
+	<key>SUPublicEDKey</key>
+	<string>REPLACE_WITH_SPARKLE_EDDSA_PUBLIC_KEY</string>
+	<key>SUEnableAutomaticChecks</key>
+	<true/>
+</dict>
+</plist>

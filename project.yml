@@ -1,0 +1,70 @@
+name: LifeLogger
+options:
+  bundleIdPrefix: com.lifelogger
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+  groupSortPosition: top
+
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+    ENABLE_USER_SCRIPT_SANDBOXING: NO
+
+targets:
+  LifeLogger:
+    type: application
+    platform: macOS
+    sources:
+      - path: LifeLogger
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.lifelogger.app
+        INFOPLIST_FILE: LifeLogger/Info.plist
+        CODE_SIGN_ENTITLEMENTS: LifeLogger/LifeLogger.entitlements
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: SPJSUD7XBZ
+        ENABLE_APP_SANDBOX: NO
+        CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION: YES
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        GENERATE_INFOPLIST_FILE: NO
+        SWIFT_STRICT_CONCURRENCY: complete
+    entitlements:
+      path: LifeLogger/LifeLogger.entitlements
+
+  LifeLoggerWidget:
+    type: app-extension
+    platform: macOS
+    sources:
+      - path: LifeLoggerWidget
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.lifelogger.app.widget
+        INFOPLIST_FILE: LifeLoggerWidget/Info.plist
+        CODE_SIGN_ENTITLEMENTS: LifeLoggerWidget/LifeLoggerWidget.entitlements
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: SPJSUD7XBZ
+        ENABLE_APP_SANDBOX: YES
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks"
+        GENERATE_INFOPLIST_FILE: NO
+        SWIFT_STRICT_CONCURRENCY: complete
+    entitlements:
+      path: LifeLoggerWidget/LifeLoggerWidget.entitlements
+    dependencies:
+      - target: LifeLogger
+        embed: true
+
+schemes:
+  LifeLogger:
+    build:
+      targets:
+        LifeLogger: all
+        LifeLoggerWidget: all
+    run:
+      config: Debug
+    archive:
+      config: Release

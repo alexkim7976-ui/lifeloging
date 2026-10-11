@@ -1,0 +1,4005 @@
+{
+  "version": 2,
+  "features": [
+    {
+      "id": "tracking-1",
+      "index": 1,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "다중 모니터별 앱 사용 시간 분리",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-2",
+      "index": 2,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "Space(데스크톱)별 활동 통계",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-3",
+      "index": 3,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "Stage Manager / Full Screen 상태 구분",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-4",
+      "index": 4,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "Mission Control 사용 빈도 추적",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-5",
+      "index": 5,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "Exposé/앱 전환 단축키 사용 횟수",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-6",
+      "index": 6,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "Dock 클릭 vs Spotlight vs ⌘Tab 전환 방식 통계",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-7",
+      "index": 7,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "Finder 폴더별 체류 시간(프로젝트 폴더 태깅)",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-8",
+      "index": 8,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "Xcode 프로젝트(.xcodeproj)별 코딩 시간",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-9",
+      "index": 9,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "VS Code / Cursor 워크스페이스별 시간",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-10",
+      "index": 10,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "Git repo 루트 자동 인식 후 repo별 집중 시간",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-11",
+      "index": 11,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "브라우저별(Safari/Chrome/Arc) 분리 통계",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-12",
+      "index": 12,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "Safari/Chrome 탭 도메인별 시간(로컬 파싱)",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-13",
+      "index": 13,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "PDF/Keynote/Numbers 문서 파일명별 작업 시간",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-14",
+      "index": 14,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "Logic Pro / Final Cut / DaVinci 프로젝트별 시간",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-15",
+      "index": 15,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "Photoshop/Figma 파일명 기반 디자인 시간",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-16",
+      "index": 16,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "터미널 세션별 cwd(작업 디렉터리) 추적",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-17",
+      "index": 17,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "SSH 원격 호스트별 터미널 시간",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-18",
+      "index": 18,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "Docker Desktop 실행 중 컨테이너 작업 태그",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-19",
+      "index": 19,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "VM(Parallels/UTM) 내부 활동 별도 카테고리",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-20",
+      "index": 20,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "게임/Steam 실행 시 자동 엔터테인먼트 + 일시정지",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-21",
+      "index": 21,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "미디어 재생 중 Music/TV 집중 제외 옵션",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-22",
+      "index": 22,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "화면 녹화/OBS 실행 중 별도 라벨",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-23",
+      "index": 23,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "화면 공유 Zoom/Meet 중 회의 자동 태그",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-24",
+      "index": 24,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "캘린더 일정 제목과 겹치는 시간대 자동 라벨",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-25",
+      "index": 25,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "집중 세션 수동 시작/종료 버튼",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-26",
+      "index": 26,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "URL scheme lifelogger start-focus",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-27",
+      "index": 27,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "AppleScript로 현재 태그 조회/설정",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-28",
+      "index": 28,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "Shortcuts 액션 지금 뭐 하고 있는지 JSON",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-29",
+      "index": 29,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "Raycast/Alfred 플러그인용 로컬 API",
+      "status": "implemented"
+    },
+    {
+      "id": "tracking-30",
+      "index": 30,
+      "categoryId": "tracking",
+      "categoryName": "추적·감지",
+      "title": "로그인 아이템 실행 시 자동 추적 시작",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-1",
+      "index": 31,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "사용자 정의 집중 카테고리(무제한)",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-2",
+      "index": 32,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "카테고리별 일일 목표 시간",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-3",
+      "index": 33,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "카테고리별 주간 목표",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-4",
+      "index": 34,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "딥 워크 최소 연속 시간 사용자 설정",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-5",
+      "index": 35,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "딥 워크 달성 배지/스트릭",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-6",
+      "index": 36,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "컨텍스트 스위칭 페널티 점수",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-7",
+      "index": 37,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "앱 전환 횟수 일일 목표 상한",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-8",
+      "index": 38,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "5분 미만 짧은 세그먼트 필터 통계",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-9",
+      "index": 39,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "집중 블록 90분 추천 알림",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-10",
+      "index": 40,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "아침/오후/저녁 골든 타임 자동 비교",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-11",
+      "index": 41,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "요일별 최적 시작 시간 추천",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-12",
+      "index": 42,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "오늘 1순위 프로젝트 고정 표시",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-13",
+      "index": 43,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "프로젝트별 남은 목표 시간 카운트다운",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-14",
+      "index": 44,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "Eisenhower 매트릭스 태그",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-15",
+      "index": 45,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "MIT Most Important Task 3개 고정",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-16",
+      "index": 46,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "집중 모드 Focus 프로필별 통계",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-17",
+      "index": 47,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "Do Not Disturb 시간과 집중률 상관",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-18",
+      "index": 48,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "방해 앱 블랙리스트 + 진입 시 넛지",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-19",
+      "index": 49,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "방해 앱 진입 10초 유예 후 카운트",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-20",
+      "index": 50,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "Slack/Discord 포커스 상태 연동",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-21",
+      "index": 51,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "메일 앱 체류 vs 작성 시간 구분",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-22",
+      "index": 52,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "읽기 모드 vs 작성 모드 창 제목 구분",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-23",
+      "index": 53,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "회의 전 5분 집중 리마인더",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-24",
+      "index": 54,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "회의 후 복귀 집중 세션 제안",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-25",
+      "index": 55,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "점심 시간 자동 제외",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-26",
+      "index": 56,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "커피 브레이크 마이크로 타이머",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-27",
+      "index": 57,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "20-20-20 눈 휴식 타이머",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-28",
+      "index": 58,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "자세/스트레칭 리마인더",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-29",
+      "index": 59,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "오늘 그만해도 됨 목표 달성 축하",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-30",
+      "index": 60,
+      "categoryId": "focus",
+      "categoryName": "집중·생산성",
+      "title": "주말/평일 다른 목표 프로필",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-1",
+      "index": 61,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "월간 집중 리포트 PDF",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-2",
+      "index": 62,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "분기별 트렌드 리포트",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-3",
+      "index": 63,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "연간 heatmap 365일",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-4",
+      "index": 64,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "카테고리 비중 원형 차트",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-5",
+      "index": 65,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "앱 TOP 20 주간 랭킹",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-6",
+      "index": 66,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "시간 도둑 앱 자동 하이라이트",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-7",
+      "index": 67,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "집중률 vs 화면 켬 시간 비교",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-8",
+      "index": 68,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "AFK/자리비움 비율 추이",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-9",
+      "index": 69,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "잠금 화면·슬립 시간대 분석",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-10",
+      "index": 70,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "야간 22-6시 사용 경고",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-11",
+      "index": 71,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "주중 vs 주말 패턴 비교",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-12",
+      "index": 72,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "프로젝트 태그별 ROI",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-13",
+      "index": 73,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "태그 없는 시간 미분류 리포트",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-14",
+      "index": 74,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "세션 길이 히스토그램",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-15",
+      "index": 75,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "전환 그래프 Sankey 앱→앱",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-16",
+      "index": 76,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "시간대별 앱 선호 히트맵",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-17",
+      "index": 77,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "가장 긴 연속 코딩 기록",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-18",
+      "index": 78,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "가장 긴 연속 산만함 기록",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-19",
+      "index": 79,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "집중 점수 알고리즘 커스터마이즈",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-20",
+      "index": 80,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "통계 이상치 자동 설명",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-21",
+      "index": 81,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "Before/After 목표 변경 효과",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-22",
+      "index": 82,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "휴가 모드 통계 일시 중지",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-23",
+      "index": 83,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "sick day / travel day 태그",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-24",
+      "index": 84,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "비교 기간 사용자 선택 A/B 주",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-25",
+      "index": 85,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "내보내기 스케줄 매주 CSV",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-26",
+      "index": 86,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "Numbers/Excel 피벗용 export",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-27",
+      "index": 87,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "Obsidian 일일 노트 자동 append",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-28",
+      "index": 88,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "Day One Apple Journal 연동 export",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-29",
+      "index": 89,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "Markdown 주간 요약 자동 생성",
+      "status": "implemented"
+    },
+    {
+      "id": "analytics-30",
+      "index": 90,
+      "categoryId": "analytics",
+      "categoryName": "분석·리포트",
+      "title": "차트 이미지 PNG 일괄 export",
+      "status": "implemented"
+    },
+    {
+      "id": "ui-1",
+      "index": 91,
+      "categoryId": "ui",
+      "categoryName": "Mac UI/UX",
+      "title": "Compact / Regular 레이아웃 전환",
+      "status": "implemented"
+    },
+    {
+      "id": "ui-2",
+      "index": 92,
+      "categoryId": "ui",
+      "categoryName": "Mac UI/UX",
+      "title": "사이드바 네비게이션 모드",
+      "status": "implemented"
+    },
+    {
+      "id": "ui-3",
+      "index": 93,
+      "categoryId": "ui",
+      "categoryName": "Mac UI/UX",
+      "title": "다크/라이트/시스템 테마",
+      "status": "implemented"
+    },
+    {
+      "id": "ui-4",
+      "index": 94,
+      "categoryId": "ui",
+      "categoryName": "Mac UI/UX",
+      "title": "액센트 색 사용자 지정",
+      "status": "implemented"
+    },
+    {
+      "id": "ui-5",
+      "index": 95,
+      "categoryId": "ui",
+      "categoryName": "Mac UI/UX",
+      "title": "폰트 크기 접근성 슬라이더",
+      "status": "implemented"
+    },
+    {
+      "id": "ui-6",
+      "index": 96,
+      "categoryId": "ui",
+      "categoryName": "Mac UI/UX",
+      "title": "Reduce Motion 존중",
+      "status": "implemented"
+    },
+    {
+      "id": "ui-7",
+      "index": 97,
+      "categoryId": "ui",
+      "categoryName": "Mac UI/UX",
+      "title": "Increase Contrast 모드",
+      "status": "implemented"
+    },
+    {
+      "id": "ui-8",
+      "index": 98,
+      "categoryId": "ui",
+      "categoryName": "Mac UI/UX",
+      "title": "VoiceOver 라벨 전면 점검",
+      "status": "implemented"
+    },
+    {
+      "id": "ui-9",
+      "index": 99,
+      "categoryId": "ui",
+      "categoryName": "Mac UI/UX",
+      "title": "키보드만으로 전체 조작",
+      "status": "implemented"
+    },
+    {
+      "id": "ui-10",
+      "index": 100,
+      "categoryId": "ui",
+      "categoryName": "Mac UI/UX",
+      "title": "⌘K 커맨드 팔레트",
+      "status": "implemented"
+    },
+    {
+      "id": "ui-11",
+      "index": 101,
+      "categoryId": "ui",
+      "categoryName": "Mac UI/UX",
+      "title": "드래그로 타임라인 세그먼트 병합",
+      "status": "implemented"
+    },
+    {
+      "id": "ui-12",
+      "index": 102,
+      "categoryId": "ui",
+      "categoryName": "Mac UI/UX",
+      "title": "타임라인 세그먼트 split",
+      "status": "implemented"
+    },
+    {
+      "id": "ui-13",
+      "index": 103,
+      "categoryId": "ui",
+      "categoryName": "Mac UI/UX",
+      "title": "타임라인 줌 15분/1h/하루",
+      "status": "implemented"
+    },
+    {
+      "id": "ui-14",
+      "index": 104,
+      "categoryId": "ui",
+      "categoryName": "Mac UI/UX",
+      "title": "미니 플로팅 HUD 항상 위",
+      "status": "implemented"
+    },
+    {
+      "id": "ui-15",
+      "index": 105,
+      "categoryId": "ui",
+      "categoryName": "Mac UI/UX",
+      "title": "Picture-in-Picture 스타일 미니 창",
+      "status": "implemented"
+    },
+    {
+      "id": "ui-16",
+      "index": 106,
+      "categoryId": "ui",
+      "categoryName": "Mac UI/UX",
+      "title": "여러 대시보드 탭",
+      "status": "implemented"
+    },
+    {
+      "id": "ui-17",
+      "index": 107,
+      "categoryId": "ui",
+      "categoryName": "Mac UI/UX",
+      "title": "즐겨찾기 카드 순서 편집",
+      "status": "implemented"
+    },
+    {
+      "id": "ui-18",
+      "index": 108,
+      "categoryId": "ui",
+      "categoryName": "Mac UI/UX",
+      "title": "카드 숨기기/표시",
+      "status": "implemented"
+    },
+    {
+      "id": "ui-19",
+      "index": 109,
+      "categoryId": "ui",
+      "categoryName": "Mac UI/UX",
+      "title": "전체 화면 집중 대시보드",
+      "status": "implemented"
+    },
+    {
+      "id": "ui-20",
+      "index": 110,
+      "categoryId": "ui",
+      "categoryName": "Mac UI/UX",
+      "title": "Control Strip (Touch Bar 대체)",
+      "status": "implemented"
+    },
+    {
+      "id": "ui-21",
+      "index": 111,
+      "categoryId": "ui",
+      "categoryName": "Mac UI/UX",
+      "title": "iPad Sidecar 연결 시 별도 표시",
+      "status": "implemented"
+    },
+    {
+      "id": "ui-22",
+      "index": 112,
+      "categoryId": "ui",
+      "categoryName": "Mac UI/UX",
+      "title": "창 위치/크기 기억",
+      "status": "implemented"
+    },
+    {
+      "id": "ui-23",
+      "index": 113,
+      "categoryId": "ui",
+      "categoryName": "Mac UI/UX",
+      "title": "다중 창 통계+타임라인",
+      "status": "implemented"
+    },
+    {
+      "id": "ui-24",
+      "index": 114,
+      "categoryId": "ui",
+      "categoryName": "Mac UI/UX",
+      "title": "Quick Look 세그먼트 상세",
+      "status": "implemented"
+    },
+    {
+      "id": "ui-25",
+      "index": 115,
+      "categoryId": "ui",
+      "categoryName": "Mac UI/UX",
+      "title": "스크린샷 타임라인 썸네일",
+      "status": "implemented"
+    },
+    {
+      "id": "menubar-1",
+      "index": 116,
+      "categoryId": "menubar",
+      "categoryName": "Menu Bar·Dock·Spotlight",
+      "title": "Menu bar 아이콘만 모드",
+      "status": "implemented"
+    },
+    {
+      "id": "menubar-2",
+      "index": 117,
+      "categoryId": "menubar",
+      "categoryName": "Menu Bar·Dock·Spotlight",
+      "title": "Menu bar 오늘 집중 % 숫자",
+      "status": "implemented"
+    },
+    {
+      "id": "menubar-3",
+      "index": 118,
+      "categoryId": "menubar",
+      "categoryName": "Menu Bar·Dock·Spotlight",
+      "title": "Menu bar 현재 앱 아이콘",
+      "status": "implemented"
+    },
+    {
+      "id": "menubar-4",
+      "index": 119,
+      "categoryId": "menubar",
+      "categoryName": "Menu Bar·Dock·Spotlight",
+      "title": "Menu bar 드롭다운 미니 차트",
+      "status": "implemented"
+    },
+    {
+      "id": "menubar-5",
+      "index": 120,
+      "categoryId": "menubar",
+      "categoryName": "Menu Bar·Dock·Spotlight",
+      "title": "Menu bar 다음 목표까지 N분",
+      "status": "implemented"
+    },
+    {
+      "id": "menubar-6",
+      "index": 121,
+      "categoryId": "menubar",
+      "categoryName": "Menu Bar·Dock·Spotlight",
+      "title": "Dock 배지 오늘 집중 %",
+      "status": "implemented"
+    },
+    {
+      "id": "menubar-7",
+      "index": 122,
+      "categoryId": "menubar",
+      "categoryName": "Menu Bar·Dock·Spotlight",
+      "title": "Dock 메뉴 빠른 일시정지",
+      "status": "implemented"
+    },
+    {
+      "id": "menubar-8",
+      "index": 123,
+      "categoryId": "menubar",
+      "categoryName": "Menu Bar·Dock·Spotlight",
+      "title": "Spotlight LifeLogger focus today",
+      "status": "implemented"
+    },
+    {
+      "id": "menubar-9",
+      "index": 124,
+      "categoryId": "menubar",
+      "categoryName": "Menu Bar·Dock·Spotlight",
+      "title": "Spotlight 세그먼트 검색",
+      "status": "implemented"
+    },
+    {
+      "id": "menubar-10",
+      "index": 125,
+      "categoryId": "menubar",
+      "categoryName": "Menu Bar·Dock·Spotlight",
+      "title": "Launch Services Quick Action",
+      "status": "implemented"
+    },
+    {
+      "id": "menubar-11",
+      "index": 126,
+      "categoryId": "menubar",
+      "categoryName": "Menu Bar·Dock·Spotlight",
+      "title": "Finder Quick Action 폴더→프로젝트",
+      "status": "implemented"
+    },
+    {
+      "id": "menubar-12",
+      "index": 127,
+      "categoryId": "menubar",
+      "categoryName": "Menu Bar·Dock·Spotlight",
+      "title": "Services 메뉴 현재 활동 복사",
+      "status": "implemented"
+    },
+    {
+      "id": "menubar-13",
+      "index": 128,
+      "categoryId": "menubar",
+      "categoryName": "Menu Bar·Dock·Spotlight",
+      "title": "Status bar 색상 집중/AFK/정지",
+      "status": "implemented"
+    },
+    {
+      "id": "menubar-14",
+      "index": 129,
+      "categoryId": "menubar",
+      "categoryName": "Menu Bar·Dock·Spotlight",
+      "title": "Notch Island 스타일 애니메이션",
+      "status": "implemented"
+    },
+    {
+      "id": "menubar-15",
+      "index": 130,
+      "categoryId": "menubar",
+      "categoryName": "Menu Bar·Dock·Spotlight",
+      "title": "Notchless Mac 상단 얇은 바",
+      "status": "implemented"
+    },
+    {
+      "id": "menubar-16",
+      "index": 131,
+      "categoryId": "menubar",
+      "categoryName": "Menu Bar·Dock·Spotlight",
+      "title": "다중 Menu bar 아이콘",
+      "status": "implemented"
+    },
+    {
+      "id": "menubar-17",
+      "index": 132,
+      "categoryId": "menubar",
+      "categoryName": "Menu Bar·Dock·Spotlight",
+      "title": "Menu bar 타이머 현재 세그먼트",
+      "status": "implemented"
+    },
+    {
+      "id": "menubar-18",
+      "index": 133,
+      "categoryId": "menubar",
+      "categoryName": "Menu Bar·Dock·Spotlight",
+      "title": "오늘 종료 원클릭",
+      "status": "implemented"
+    },
+    {
+      "id": "menubar-19",
+      "index": 134,
+      "categoryId": "menubar",
+      "categoryName": "Menu Bar·Dock·Spotlight",
+      "title": "Login item + Menu bar only",
+      "status": "implemented"
+    },
+    {
+      "id": "menubar-20",
+      "index": 135,
+      "categoryId": "menubar",
+      "categoryName": "Menu Bar·Dock·Spotlight",
+      "title": "Bartender 호환 가이드",
+      "status": "implemented"
+    },
+    {
+      "id": "widgets-1",
+      "index": 136,
+      "categoryId": "widgets",
+      "categoryName": "위젯·Screen Saver",
+      "title": "Lock Screen 위젯",
+      "status": "implemented"
+    },
+    {
+      "id": "widgets-2",
+      "index": 137,
+      "categoryId": "widgets",
+      "categoryName": "위젯·Screen Saver",
+      "title": "Desktop 위젯 투명도",
+      "status": "implemented"
+    },
+    {
+      "id": "widgets-3",
+      "index": 138,
+      "categoryId": "widgets",
+      "categoryName": "위젯·Screen Saver",
+      "title": "위젯 오늘 목표 진행률",
+      "status": "implemented"
+    },
+    {
+      "id": "widgets-4",
+      "index": 139,
+      "categoryId": "widgets",
+      "categoryName": "위젯·Screen Saver",
+      "title": "위젯 현재 프로젝트 태그",
+      "status": "implemented"
+    },
+    {
+      "id": "widgets-5",
+      "index": 140,
+      "categoryId": "widgets",
+      "categoryName": "위젯·Screen Saver",
+      "title": "위젯 Interactive 태그 전환",
+      "status": "implemented"
+    },
+    {
+      "id": "widgets-6",
+      "index": 141,
+      "categoryId": "widgets",
+      "categoryName": "위젯·Screen Saver",
+      "title": "Screen Saver 7일 heatmap",
+      "status": "implemented"
+    },
+    {
+      "id": "widgets-7",
+      "index": 142,
+      "categoryId": "widgets",
+      "categoryName": "위젯·Screen Saver",
+      "title": "Screen Saver 오늘 한 줄 요약",
+      "status": "implemented"
+    },
+    {
+      "id": "widgets-8",
+      "index": 143,
+      "categoryId": "widgets",
+      "categoryName": "위젯·Screen Saver",
+      "title": "Dynamic Desktop 연동",
+      "status": "implemented"
+    },
+    {
+      "id": "widgets-9",
+      "index": 144,
+      "categoryId": "widgets",
+      "categoryName": "위젯·Screen Saver",
+      "title": "Desktop 아이콘 옆 집중 텍스트",
+      "status": "implemented"
+    },
+    {
+      "id": "widgets-10",
+      "index": 145,
+      "categoryId": "widgets",
+      "categoryName": "위젯·Screen Saver",
+      "title": "Notification Center 위젯",
+      "status": "implemented"
+    },
+    {
+      "id": "widgets-11",
+      "index": 146,
+      "categoryId": "widgets",
+      "categoryName": "위젯·Screen Saver",
+      "title": "Control Center 모듈",
+      "status": "implemented"
+    },
+    {
+      "id": "widgets-12",
+      "index": 147,
+      "categoryId": "widgets",
+      "categoryName": "위젯·Screen Saver",
+      "title": "Stage Manager live chip",
+      "status": "implemented"
+    },
+    {
+      "id": "widgets-13",
+      "index": 148,
+      "categoryId": "widgets",
+      "categoryName": "위젯·Screen Saver",
+      "title": "Spaces별 위젯 설정",
+      "status": "implemented"
+    },
+    {
+      "id": "widgets-14",
+      "index": 149,
+      "categoryId": "widgets",
+      "categoryName": "위젯·Screen Saver",
+      "title": "위젯 프라이버시 모드",
+      "status": "implemented"
+    },
+    {
+      "id": "widgets-15",
+      "index": 150,
+      "categoryId": "widgets",
+      "categoryName": "위젯·Screen Saver",
+      "title": "Extra Large 위젯 타임라인",
+      "status": "implemented"
+    },
+    {
+      "id": "automation-1",
+      "index": 151,
+      "categoryId": "automation",
+      "categoryName": "자동화·Shortcuts",
+      "title": "Shortcuts 추적 시작/중지",
+      "status": "implemented"
+    },
+    {
+      "id": "automation-2",
+      "index": 152,
+      "categoryId": "automation",
+      "categoryName": "자동화·Shortcuts",
+      "title": "Shortcuts 오늘 통계",
+      "status": "implemented"
+    },
+    {
+      "id": "automation-3",
+      "index": 153,
+      "categoryId": "automation",
+      "categoryName": "자동화·Shortcuts",
+      "title": "Shortcuts 프로젝트 태그 설정",
+      "status": "implemented"
+    },
+    {
+      "id": "automation-4",
+      "index": 154,
+      "categoryId": "automation",
+      "categoryName": "자동화·Shortcuts",
+      "title": "Shortcuts 목표 달성 다음 액션",
+      "status": "implemented"
+    },
+    {
+      "id": "automation-5",
+      "index": 155,
+      "categoryId": "automation",
+      "categoryName": "자동화·Shortcuts",
+      "title": "Automator 워크플로 export",
+      "status": "implemented"
+    },
+    {
+      "id": "automation-6",
+      "index": 156,
+      "categoryId": "automation",
+      "categoryName": "자동화·Shortcuts",
+      "title": "AppleScript dictionary",
+      "status": "implemented"
+    },
+    {
+      "id": "automation-7",
+      "index": 157,
+      "categoryId": "automation",
+      "categoryName": "자동화·Shortcuts",
+      "title": "JXA 예제",
+      "status": "implemented"
+    },
+    {
+      "id": "automation-8",
+      "index": 158,
+      "categoryId": "automation",
+      "categoryName": "자동화·Shortcuts",
+      "title": "Keyboard Maestro 연동",
+      "status": "implemented"
+    },
+    {
+      "id": "automation-9",
+      "index": 159,
+      "categoryId": "automation",
+      "categoryName": "자동화·Shortcuts",
+      "title": "BetterTouchTool 연동",
+      "status": "implemented"
+    },
+    {
+      "id": "automation-10",
+      "index": 160,
+      "categoryId": "automation",
+      "categoryName": "자동화·Shortcuts",
+      "title": "Hammerspoon lifelogger 모듈",
+      "status": "implemented"
+    },
+    {
+      "id": "automation-11",
+      "index": 161,
+      "categoryId": "automation",
+      "categoryName": "자동화·Shortcuts",
+      "title": "cron launchd plist",
+      "status": "implemented"
+    },
+    {
+      "id": "automation-12",
+      "index": 162,
+      "categoryId": "automation",
+      "categoryName": "자동화·Shortcuts",
+      "title": "앱 실행 시 태그 자동",
+      "status": "implemented"
+    },
+    {
+      "id": "automation-13",
+      "index": 163,
+      "categoryId": "automation",
+      "categoryName": "자동화·Shortcuts",
+      "title": "Wi-Fi SSID=회사 → 프로젝트",
+      "status": "implemented"
+    },
+    {
+      "id": "automation-14",
+      "index": 164,
+      "categoryId": "automation",
+      "categoryName": "자동화·Shortcuts",
+      "title": "블루투스 이어폰 → 집중 모드",
+      "status": "implemented"
+    },
+    {
+      "id": "automation-15",
+      "index": 165,
+      "categoryId": "automation",
+      "categoryName": "자동화·Shortcuts",
+      "title": "배터리 20% 추적 일시정지",
+      "status": "implemented"
+    },
+    {
+      "id": "automation-16",
+      "index": 166,
+      "categoryId": "automation",
+      "categoryName": "자동화·Shortcuts",
+      "title": "AC 전원일 때만 상세 추적",
+      "status": "implemented"
+    },
+    {
+      "id": "automation-17",
+      "index": 167,
+      "categoryId": "automation",
+      "categoryName": "자동화·Shortcuts",
+      "title": "Time-based Focus Profile",
+      "status": "implemented"
+    },
+    {
+      "id": "automation-18",
+      "index": 168,
+      "categoryId": "automation",
+      "categoryName": "자동화·Shortcuts",
+      "title": "Calendar 알람 5분 전 집중 종료",
+      "status": "implemented"
+    },
+    {
+      "id": "automation-19",
+      "index": 169,
+      "categoryId": "automation",
+      "categoryName": "자동화·Shortcuts",
+      "title": "Mail 규칙 연동",
+      "status": "implemented"
+    },
+    {
+      "id": "automation-20",
+      "index": 170,
+      "categoryId": "automation",
+      "categoryName": "자동화·Shortcuts",
+      "title": "Folder Action Downloads 제외",
+      "status": "implemented"
+    },
+    {
+      "id": "privacy-1",
+      "index": 171,
+      "categoryId": "privacy",
+      "categoryName": "프라이버시·보안",
+      "title": "전체 데이터 로컬 AES 볼륨",
+      "status": "implemented"
+    },
+    {
+      "id": "privacy-2",
+      "index": 172,
+      "categoryId": "privacy",
+      "categoryName": "프라이버시·보안",
+      "title": "Touch ID 백업 복호화",
+      "status": "implemented"
+    },
+    {
+      "id": "privacy-3",
+      "index": 173,
+      "categoryId": "privacy",
+      "categoryName": "프라이버시·보안",
+      "title": "세션 타임아웃 앱 잠금",
+      "status": "implemented"
+    },
+    {
+      "id": "privacy-4",
+      "index": 174,
+      "categoryId": "privacy",
+      "categoryName": "프라이버시·보안",
+      "title": "공유 시 창 제목 redact",
+      "status": "implemented"
+    },
+    {
+      "id": "privacy-5",
+      "index": 175,
+      "categoryId": "privacy",
+      "categoryName": "프라이버시·보안",
+      "title": "앱별 마스킹 regex",
+      "status": "implemented"
+    },
+    {
+      "id": "privacy-6",
+      "index": 176,
+      "categoryId": "privacy",
+      "categoryName": "프라이버시·보안",
+      "title": "프라이버시 시간 통계 숨김",
+      "status": "implemented"
+    },
+    {
+      "id": "privacy-7",
+      "index": 177,
+      "categoryId": "privacy",
+      "categoryName": "프라이버시·보안",
+      "title": "Guest User 감지 추적 중지",
+      "status": "implemented"
+    },
+    {
+      "id": "privacy-8",
+      "index": 178,
+      "categoryId": "privacy",
+      "categoryName": "프라이버시·보안",
+      "title": "네트워크 전송 차단 토글",
+      "status": "implemented"
+    },
+    {
+      "id": "privacy-9",
+      "index": 179,
+      "categoryId": "privacy",
+      "categoryName": "프라이버시·보안",
+      "title": "진단 로그 끄기",
+      "status": "implemented"
+    },
+    {
+      "id": "privacy-10",
+      "index": 180,
+      "categoryId": "privacy",
+      "categoryName": "프라이버시·보안",
+      "title": "데이터 디렉터리 wipe",
+      "status": "implemented"
+    },
+    {
+      "id": "privacy-11",
+      "index": 181,
+      "categoryId": "privacy",
+      "categoryName": "프라이버시·보안",
+      "title": "GDPR 데이터 내보내기",
+      "status": "implemented"
+    },
+    {
+      "id": "privacy-12",
+      "index": 182,
+      "categoryId": "privacy",
+      "categoryName": "프라이버시·보안",
+      "title": "보관 기간별 앱명 해시",
+      "status": "implemented"
+    },
+    {
+      "id": "privacy-13",
+      "index": 183,
+      "categoryId": "privacy",
+      "categoryName": "프라이버시·보안",
+      "title": "통계만 유지 raw 삭제",
+      "status": "implemented"
+    },
+    {
+      "id": "privacy-14",
+      "index": 184,
+      "categoryId": "privacy",
+      "categoryName": "프라이버시·보안",
+      "title": "App Sandbox 로드맵",
+      "status": "implemented"
+    },
+    {
+      "id": "privacy-15",
+      "index": 185,
+      "categoryId": "privacy",
+      "categoryName": "프라이버시·보안",
+      "title": "Hardened Runtime 체크리스트",
+      "status": "implemented"
+    },
+    {
+      "id": "privacy-16",
+      "index": 186,
+      "categoryId": "privacy",
+      "categoryName": "프라이버시·보안",
+      "title": "코드 서명 상태 표시",
+      "status": "implemented"
+    },
+    {
+      "id": "privacy-17",
+      "index": 187,
+      "categoryId": "privacy",
+      "categoryName": "프라이버시·보안",
+      "title": "클립보드 만료 사용자 설정",
+      "status": "implemented"
+    },
+    {
+      "id": "privacy-18",
+      "index": 188,
+      "categoryId": "privacy",
+      "categoryName": "프라이버시·보안",
+      "title": "공유 링크 만료 24h",
+      "status": "implemented"
+    },
+    {
+      "id": "privacy-19",
+      "index": 189,
+      "categoryId": "privacy",
+      "categoryName": "프라이버시·보안",
+      "title": "공유 링크 비밀번호",
+      "status": "implemented"
+    },
+    {
+      "id": "privacy-20",
+      "index": 190,
+      "categoryId": "privacy",
+      "categoryName": "프라이버시·보안",
+      "title": "로컬 Web share 127.0.0.1",
+      "status": "implemented"
+    },
+    {
+      "id": "privacy-21",
+      "index": 191,
+      "categoryId": "privacy",
+      "categoryName": "프라이버시·보안",
+      "title": "VPN 감지 cloud off",
+      "status": "implemented"
+    },
+    {
+      "id": "privacy-22",
+      "index": 192,
+      "categoryId": "privacy",
+      "categoryName": "프라이버시·보안",
+      "title": "FileVault 권장 배너",
+      "status": "implemented"
+    },
+    {
+      "id": "privacy-23",
+      "index": 193,
+      "categoryId": "privacy",
+      "categoryName": "프라이버시·보안",
+      "title": "iCloud Drive 동기화 거부 안내",
+      "status": "implemented"
+    },
+    {
+      "id": "privacy-24",
+      "index": 194,
+      "categoryId": "privacy",
+      "categoryName": "프라이버시·보안",
+      "title": "Third-party SDK inventory",
+      "status": "implemented"
+    },
+    {
+      "id": "privacy-25",
+      "index": 195,
+      "categoryId": "privacy",
+      "categoryName": "프라이버시·보안",
+      "title": "오픈소스 라이선스 뷰어",
+      "status": "implemented"
+    },
+    {
+      "id": "data-1",
+      "index": 196,
+      "categoryId": "data",
+      "categoryName": "데이터·백업",
+      "title": "Time Machine 가이드",
+      "status": "implemented"
+    },
+    {
+      "id": "data-2",
+      "index": 197,
+      "categoryId": "data",
+      "categoryName": "데이터·백업",
+      "title": "iCloud Drive 수동 백업",
+      "status": "implemented"
+    },
+    {
+      "id": "data-3",
+      "index": 198,
+      "categoryId": "data",
+      "categoryName": "데이터·백업",
+      "title": "NAS SMB 자동 백업",
+      "status": "implemented"
+    },
+    {
+      "id": "data-4",
+      "index": 199,
+      "categoryId": "data",
+      "categoryName": "데이터·백업",
+      "title": "외장 SSD 원클릭 미러",
+      "status": "implemented"
+    },
+    {
+      "id": "data-5",
+      "index": 200,
+      "categoryId": "data",
+      "categoryName": "데이터·백업",
+      "title": "증분 백업",
+      "status": "implemented"
+    },
+    {
+      "id": "data-6",
+      "index": 201,
+      "categoryId": "data",
+      "categoryName": "데이터·백업",
+      "title": "스냅샷 히스토리 30일",
+      "status": "implemented"
+    },
+    {
+      "id": "data-7",
+      "index": 202,
+      "categoryId": "data",
+      "categoryName": "데이터·백업",
+      "title": "세그먼트 undo merge",
+      "status": "implemented"
+    },
+    {
+      "id": "data-8",
+      "index": 203,
+      "categoryId": "data",
+      "categoryName": "데이터·백업",
+      "title": "import RescueTime CSV",
+      "status": "implemented"
+    },
+    {
+      "id": "data-9",
+      "index": 204,
+      "categoryId": "data",
+      "categoryName": "데이터·백업",
+      "title": "import Timing app",
+      "status": "implemented"
+    },
+    {
+      "id": "data-10",
+      "index": 205,
+      "categoryId": "data",
+      "categoryName": "데이터·백업",
+      "title": "import ActivityWatch",
+      "status": "implemented"
+    },
+    {
+      "id": "data-11",
+      "index": 206,
+      "categoryId": "data",
+      "categoryName": "데이터·백업",
+      "title": "import Toggl desktop",
+      "status": "implemented"
+    },
+    {
+      "id": "data-12",
+      "index": 207,
+      "categoryId": "data",
+      "categoryName": "데이터·백업",
+      "title": "export Google Calendar ICS",
+      "status": "implemented"
+    },
+    {
+      "id": "data-13",
+      "index": 208,
+      "categoryId": "data",
+      "categoryName": "데이터·백업",
+      "title": "export Fantastical",
+      "status": "implemented"
+    },
+    {
+      "id": "data-14",
+      "index": 209,
+      "categoryId": "data",
+      "categoryName": "데이터·백업",
+      "title": "export Things/OmniFocus",
+      "status": "implemented"
+    },
+    {
+      "id": "data-15",
+      "index": 210,
+      "categoryId": "data",
+      "categoryName": "데이터·백업",
+      "title": "DB 무결성 검사 repair",
+      "status": "implemented"
+    },
+    {
+      "id": "data-16",
+      "index": 211,
+      "categoryId": "data",
+      "categoryName": "데이터·백업",
+      "title": "마이그레이션 마법사",
+      "status": "implemented"
+    },
+    {
+      "id": "data-17",
+      "index": 212,
+      "categoryId": "data",
+      "categoryName": "데이터·백업",
+      "title": "Raw SQLite 뷰어",
+      "status": "implemented"
+    },
+    {
+      "id": "data-18",
+      "index": 213,
+      "categoryId": "data",
+      "categoryName": "데이터·백업",
+      "title": "로컬 HTTP API 127.0.0.1",
+      "status": "implemented"
+    },
+    {
+      "id": "data-19",
+      "index": 214,
+      "categoryId": "data",
+      "categoryName": "데이터·백업",
+      "title": "Git-like diff 어제 vs 오늘",
+      "status": "implemented"
+    },
+    {
+      "id": "data-20",
+      "index": 215,
+      "categoryId": "data",
+      "categoryName": "데이터·백업",
+      "title": "데이터 압축 .lifelog",
+      "status": "implemented"
+    },
+    {
+      "id": "goals-1",
+      "index": 216,
+      "categoryId": "goals",
+      "categoryName": "목표·습관·게이미피케이션",
+      "title": "XP/레벨 집중 시간",
+      "status": "implemented"
+    },
+    {
+      "id": "goals-2",
+      "index": 217,
+      "categoryId": "goals",
+      "categoryName": "목표·습관·게이미피케이션",
+      "title": "업적 50종",
+      "status": "implemented"
+    },
+    {
+      "id": "goals-3",
+      "index": 218,
+      "categoryId": "goals",
+      "categoryName": "목표·습관·게이미피케이션",
+      "title": "시즌별 챌린지",
+      "status": "implemented"
+    },
+    {
+      "id": "goals-4",
+      "index": 219,
+      "categoryId": "goals",
+      "categoryName": "목표·습관·게이미피케이션",
+      "title": "개인 리더보드 지난주 vs 이번주",
+      "status": "implemented"
+    },
+    {
+      "id": "goals-5",
+      "index": 220,
+      "categoryId": "goals",
+      "categoryName": "목표·습관·게이미피케이션",
+      "title": "연속 출석 스트릭",
+      "status": "implemented"
+    },
+    {
+      "id": "goals-6",
+      "index": 221,
+      "categoryId": "goals",
+      "categoryName": "목표·습관·게이미피케이션",
+      "title": "No zero day 미니 목표",
+      "status": "implemented"
+    },
+    {
+      "id": "goals-7",
+      "index": 222,
+      "categoryId": "goals",
+      "categoryName": "목표·습관·게이미피케이션",
+      "title": "주간 리뷰 질문 프롬프트",
+      "status": "implemented"
+    },
+    {
+      "id": "goals-8",
+      "index": 223,
+      "categoryId": "goals",
+      "categoryName": "목표·습관·게이미피케이션",
+      "title": "감사 일기 필드",
+      "status": "implemented"
+    },
+    {
+      "id": "goals-9",
+      "index": 224,
+      "categoryId": "goals",
+      "categoryName": "목표·습관·게이미피케이션",
+      "title": "기분 1-5 집중 상관",
+      "status": "implemented"
+    },
+    {
+      "id": "goals-10",
+      "index": 225,
+      "categoryId": "goals",
+      "categoryName": "목표·습관·게이미피케이션",
+      "title": "수면 시간 수동 입력",
+      "status": "implemented"
+    },
+    {
+      "id": "goals-11",
+      "index": 226,
+      "categoryId": "goals",
+      "categoryName": "목표·습관·게이미피케이션",
+      "title": "운동 여부 태그",
+      "status": "implemented"
+    },
+    {
+      "id": "goals-12",
+      "index": 227,
+      "categoryId": "goals",
+      "categoryName": "목표·습관·게이미피케이션",
+      "title": "카페인 섭취 로그",
+      "status": "implemented"
+    },
+    {
+      "id": "goals-13",
+      "index": 228,
+      "categoryId": "goals",
+      "categoryName": "목표·습관·게이미피케이션",
+      "title": "날씨와 집중 상관",
+      "status": "implemented"
+    },
+    {
+      "id": "goals-14",
+      "index": 229,
+      "categoryId": "goals",
+      "categoryName": "목표·습관·게이미피케이션",
+      "title": "에너지 레벨 시간대",
+      "status": "implemented"
+    },
+    {
+      "id": "goals-15",
+      "index": 230,
+      "categoryId": "goals",
+      "categoryName": "목표·습관·게이미피케이션",
+      "title": "목표 실패 부드러운 코칭",
+      "status": "implemented"
+    },
+    {
+      "id": "goals-16",
+      "index": 231,
+      "categoryId": "goals",
+      "categoryName": "목표·습관·게이미피케이션",
+      "title": "목표 초과 과로 경고",
+      "status": "implemented"
+    },
+    {
+      "id": "goals-17",
+      "index": 232,
+      "categoryId": "goals",
+      "categoryName": "목표·습관·게이미피케이션",
+      "title": "커스텀 축하 사운드",
+      "status": "implemented"
+    },
+    {
+      "id": "goals-18",
+      "index": 233,
+      "categoryId": "goals",
+      "categoryName": "목표·습관·게이미피케이션",
+      "title": "배경 테마 unlock",
+      "status": "implemented"
+    },
+    {
+      "id": "goals-19",
+      "index": 234,
+      "categoryId": "goals",
+      "categoryName": "목표·습관·게이미피케이션",
+      "title": "집중 코인 가상 보상",
+      "status": "implemented"
+    },
+    {
+      "id": "goals-20",
+      "index": 235,
+      "categoryId": "goals",
+      "categoryName": "목표·습관·게이미피케이션",
+      "title": "연말 Wrapped 로컬 렌더",
+      "status": "implemented"
+    },
+    {
+      "id": "window-1",
+      "index": 236,
+      "categoryId": "window",
+      "categoryName": "창·워크스pace",
+      "title": "창 개수 Chrome 탭 수",
+      "status": "implemented"
+    },
+    {
+      "id": "window-2",
+      "index": 237,
+      "categoryId": "window",
+      "categoryName": "창·워크스pace",
+      "title": "Split View 사용 시간",
+      "status": "implemented"
+    },
+    {
+      "id": "window-3",
+      "index": 238,
+      "categoryId": "window",
+      "categoryName": "창·워크스pace",
+      "title": "Side-by-side 앱 조합",
+      "status": "implemented"
+    },
+    {
+      "id": "window-4",
+      "index": 239,
+      "categoryId": "window",
+      "categoryName": "창·워크스pace",
+      "title": "방해 조합 알림 Slack+Twitter",
+      "status": "implemented"
+    },
+    {
+      "id": "window-5",
+      "index": 240,
+      "categoryId": "window",
+      "categoryName": "창·워크스pace",
+      "title": "Single-app full screen streak",
+      "status": "implemented"
+    },
+    {
+      "id": "window-6",
+      "index": 241,
+      "categoryId": "window",
+      "categoryName": "창·워크스pace",
+      "title": "Mission Control blur",
+      "status": "implemented"
+    },
+    {
+      "id": "window-7",
+      "index": 242,
+      "categoryId": "window",
+      "categoryName": "창·워크스pace",
+      "title": "앱별 Space 할당 제안",
+      "status": "implemented"
+    },
+    {
+      "id": "window-8",
+      "index": 243,
+      "categoryId": "window",
+      "categoryName": "창·워크스pace",
+      "title": "작업 모드 Space 자동 전환",
+      "status": "implemented"
+    },
+    {
+      "id": "window-9",
+      "index": 244,
+      "categoryId": "window",
+      "categoryName": "창·워크스pace",
+      "title": "창 z-order top app",
+      "status": "implemented"
+    },
+    {
+      "id": "window-10",
+      "index": 245,
+      "categoryId": "window",
+      "categoryName": "창·워크스pace",
+      "title": "PiP overlay 감지",
+      "status": "implemented"
+    },
+    {
+      "id": "window-11",
+      "index": 246,
+      "categoryId": "window",
+      "categoryName": "창·워크스pace",
+      "title": "AI 채팅 창 별도 카테고리",
+      "status": "implemented"
+    },
+    {
+      "id": "window-12",
+      "index": 247,
+      "categoryId": "window",
+      "categoryName": "창·워크스pace",
+      "title": "Terminal+IDE 개발 가중치",
+      "status": "implemented"
+    },
+    {
+      "id": "window-13",
+      "index": 248,
+      "categoryId": "window",
+      "categoryName": "창·워크스pace",
+      "title": "Reference+editor 글쓰기",
+      "status": "implemented"
+    },
+    {
+      "id": "window-14",
+      "index": 249,
+      "categoryId": "window",
+      "categoryName": "창·워크스pace",
+      "title": "미사용 창 30분 경고",
+      "status": "implemented"
+    },
+    {
+      "id": "window-15",
+      "index": 250,
+      "categoryId": "window",
+      "categoryName": "창·워크스pace",
+      "title": "Window tab overview export",
+      "status": "implemented"
+    },
+    {
+      "id": "notifications-1",
+      "index": 251,
+      "categoryId": "notifications",
+      "categoryName": "알림·사운드",
+      "title": "집중 목표 50/80/100% 알림",
+      "status": "implemented"
+    },
+    {
+      "id": "notifications-2",
+      "index": 252,
+      "categoryId": "notifications",
+      "categoryName": "알림·사운드",
+      "title": "방해 앱 진입 사운드",
+      "status": "implemented"
+    },
+    {
+      "id": "notifications-3",
+      "index": 253,
+      "categoryId": "notifications",
+      "categoryName": "알림·사운드",
+      "title": "딥워크 시작/종료 사운드",
+      "status": "implemented"
+    },
+    {
+      "id": "notifications-4",
+      "index": 254,
+      "categoryId": "notifications",
+      "categoryName": "알림·사운드",
+      "title": "Silent hours",
+      "status": "implemented"
+    },
+    {
+      "id": "notifications-5",
+      "index": 255,
+      "categoryId": "notifications",
+      "categoryName": "알림·사운드",
+      "title": "Notification grouping",
+      "status": "implemented"
+    },
+    {
+      "id": "notifications-6",
+      "index": 256,
+      "categoryId": "notifications",
+      "categoryName": "알림·사운드",
+      "title": "Actionable notification",
+      "status": "implemented"
+    },
+    {
+      "id": "notifications-7",
+      "index": 257,
+      "categoryId": "notifications",
+      "categoryName": "알림·사운드",
+      "title": "Focus Filter 알림 라우팅",
+      "status": "implemented"
+    },
+    {
+      "id": "notifications-8",
+      "index": 258,
+      "categoryId": "notifications",
+      "categoryName": "알림·사운드",
+      "title": "TTS 오늘 N시간 집중",
+      "status": "implemented"
+    },
+    {
+      "id": "notifications-9",
+      "index": 259,
+      "categoryId": "notifications",
+      "categoryName": "알림·사운드",
+      "title": "메뉴바 subtle pulse",
+      "status": "implemented"
+    },
+    {
+      "id": "notifications-10",
+      "index": 260,
+      "categoryId": "notifications",
+      "categoryName": "알림·사운드",
+      "title": "알림 히스토리 로그",
+      "status": "implemented"
+    },
+    {
+      "id": "notifications-11",
+      "index": 261,
+      "categoryId": "notifications",
+      "categoryName": "알림·사운드",
+      "title": "스누즈 5/10/30분",
+      "status": "implemented"
+    },
+    {
+      "id": "notifications-12",
+      "index": 262,
+      "categoryId": "notifications",
+      "categoryName": "알림·사운드",
+      "title": "Critical alert 과로",
+      "status": "implemented"
+    },
+    {
+      "id": "notifications-13",
+      "index": 263,
+      "categoryId": "notifications",
+      "categoryName": "알림·사운드",
+      "title": "Sonora ducking",
+      "status": "implemented"
+    },
+    {
+      "id": "notifications-14",
+      "index": 264,
+      "categoryId": "notifications",
+      "categoryName": "알림·사운드",
+      "title": "Trackpad Force Touch",
+      "status": "implemented"
+    },
+    {
+      "id": "notifications-15",
+      "index": 265,
+      "categoryId": "notifications",
+      "categoryName": "알림·사운드",
+      "title": "커스텀 알림음",
+      "status": "implemented"
+    },
+    {
+      "id": "calendar-1",
+      "index": 266,
+      "categoryId": "calendar",
+      "categoryName": "캘린더·시간",
+      "title": "Apple Calendar 읽기 연동",
+      "status": "implemented"
+    },
+    {
+      "id": "calendar-2",
+      "index": 267,
+      "categoryId": "calendar",
+      "categoryName": "캘린더·시간",
+      "title": "일정 vs 실제 활동 비교",
+      "status": "implemented"
+    },
+    {
+      "id": "calendar-3",
+      "index": 268,
+      "categoryId": "calendar",
+      "categoryName": "캘린더·시간",
+      "title": "회의 시간 자동 제외",
+      "status": "implemented"
+    },
+    {
+      "id": "calendar-4",
+      "index": 269,
+      "categoryId": "calendar",
+      "categoryName": "캘린더·시간",
+      "title": "타임존 여행 감지",
+      "status": "implemented"
+    },
+    {
+      "id": "calendar-5",
+      "index": 270,
+      "categoryId": "calendar",
+      "categoryName": "캘린더·시간",
+      "title": "DST 경계 세그먼트 수정",
+      "status": "implemented"
+    },
+    {
+      "id": "calendar-6",
+      "index": 271,
+      "categoryId": "calendar",
+      "categoryName": "캘린더·시간",
+      "title": "회계 주 커스텀",
+      "status": "implemented"
+    },
+    {
+      "id": "calendar-7",
+      "index": 272,
+      "categoryId": "calendar",
+      "categoryName": "캘린더·시간",
+      "title": "4-4-5 retail calendar",
+      "status": "implemented"
+    },
+    {
+      "id": "calendar-8",
+      "index": 273,
+      "categoryId": "calendar",
+      "categoryName": "캘린더·시간",
+      "title": "공휴일 캘린더 국가별",
+      "status": "implemented"
+    },
+    {
+      "id": "calendar-9",
+      "index": 274,
+      "categoryId": "calendar",
+      "categoryName": "캘린더·시간",
+      "title": "음력 표시 옵션",
+      "status": "implemented"
+    },
+    {
+      "id": "calendar-10",
+      "index": 275,
+      "categoryId": "calendar",
+      "categoryName": "캘린더·시간",
+      "title": "업무 시작 요일 설정",
+      "status": "implemented"
+    },
+    {
+      "id": "calendar-11",
+      "index": 276,
+      "categoryId": "calendar",
+      "categoryName": "캘린더·시간",
+      "title": "점심 슬롯 캘린더 블록",
+      "status": "implemented"
+    },
+    {
+      "id": "calendar-12",
+      "index": 277,
+      "categoryId": "calendar",
+      "categoryName": "캘린더·시간",
+      "title": "Focus time calendar export",
+      "status": "implemented"
+    },
+    {
+      "id": "calendar-13",
+      "index": 278,
+      "categoryId": "calendar",
+      "categoryName": "캘린더·시간",
+      "title": "Available for meeting 히트맵",
+      "status": "implemented"
+    },
+    {
+      "id": "calendar-14",
+      "index": 279,
+      "categoryId": "calendar",
+      "categoryName": "캘린더·시간",
+      "title": "Time blocking drag Calendar",
+      "status": "implemented"
+    },
+    {
+      "id": "calendar-15",
+      "index": 280,
+      "categoryId": "calendar",
+      "categoryName": "캘린더·시간",
+      "title": "Reminders 목표 체크",
+      "status": "implemented"
+    },
+    {
+      "id": "pro-1",
+      "index": 281,
+      "categoryId": "pro",
+      "categoryName": "직군별 특화",
+      "title": "개발 compile/build Xcode",
+      "status": "implemented"
+    },
+    {
+      "id": "pro-2",
+      "index": 282,
+      "categoryId": "pro",
+      "categoryName": "직군별 특화",
+      "title": "개발 PR 리뷰 vs 코딩",
+      "status": "implemented"
+    },
+    {
+      "id": "pro-3",
+      "index": 283,
+      "categoryId": "pro",
+      "categoryName": "직군별 특화",
+      "title": "디자인 Figma file key",
+      "status": "implemented"
+    },
+    {
+      "id": "pro-4",
+      "index": 284,
+      "categoryId": "pro",
+      "categoryName": "직군별 특화",
+      "title": "글쓰기 word count 추정",
+      "status": "implemented"
+    },
+    {
+      "id": "pro-5",
+      "index": 285,
+      "categoryId": "pro",
+      "categoryName": "직군별 특화",
+      "title": "연구 PDF 논문 title",
+      "status": "implemented"
+    },
+    {
+      "id": "pro-6",
+      "index": 286,
+      "categoryId": "pro",
+      "categoryName": "직군별 특화",
+      "title": "학생 과목별 태그",
+      "status": "implemented"
+    },
+    {
+      "id": "pro-7",
+      "index": 287,
+      "categoryId": "pro",
+      "categoryName": "직군별 특화",
+      "title": "변호사 matter/client 코드",
+      "status": "implemented"
+    },
+    {
+      "id": "pro-8",
+      "index": 288,
+      "categoryId": "pro",
+      "categoryName": "직군별 특화",
+      "title": "영상 render queue",
+      "status": "implemented"
+    },
+    {
+      "id": "pro-9",
+      "index": 289,
+      "categoryId": "pro",
+      "categoryName": "직군별 특화",
+      "title": "음악 DAW 트랙 시간",
+      "status": "implemented"
+    },
+    {
+      "id": "pro-10",
+      "index": 290,
+      "categoryId": "pro",
+      "categoryName": "직군별 특화",
+      "title": "데이터 Jupyter notebook",
+      "status": "implemented"
+    },
+    {
+      "id": "pro-11",
+      "index": 291,
+      "categoryId": "pro",
+      "categoryName": "직군별 특화",
+      "title": "QA TestFlight time",
+      "status": "implemented"
+    },
+    {
+      "id": "pro-12",
+      "index": 292,
+      "categoryId": "pro",
+      "categoryName": "직군별 특화",
+      "title": "PM Jira ticket ID",
+      "status": "implemented"
+    },
+    {
+      "id": "pro-13",
+      "index": 293,
+      "categoryId": "pro",
+      "categoryName": "직군별 특화",
+      "title": "Support Zendesk queue",
+      "status": "implemented"
+    },
+    {
+      "id": "pro-14",
+      "index": 294,
+      "categoryId": "pro",
+      "categoryName": "직군별 특화",
+      "title": "Sales CRM bucket",
+      "status": "implemented"
+    },
+    {
+      "id": "pro-15",
+      "index": 295,
+      "categoryId": "pro",
+      "categoryName": "직군별 특화",
+      "title": "Creator OBS labels",
+      "status": "implemented"
+    },
+    {
+      "id": "pro-16",
+      "index": 296,
+      "categoryId": "pro",
+      "categoryName": "직군별 특화",
+      "title": "Admin Excel pivot",
+      "status": "implemented"
+    },
+    {
+      "id": "pro-17",
+      "index": 297,
+      "categoryId": "pro",
+      "categoryName": "직군별 특화",
+      "title": "Freelancer invoice hours",
+      "status": "implemented"
+    },
+    {
+      "id": "pro-18",
+      "index": 298,
+      "categoryId": "pro",
+      "categoryName": "직군별 특화",
+      "title": "Consultant billable toggle",
+      "status": "implemented"
+    },
+    {
+      "id": "pro-19",
+      "index": 299,
+      "categoryId": "pro",
+      "categoryName": "직군별 특화",
+      "title": "Academic citation manager",
+      "status": "implemented"
+    },
+    {
+      "id": "pro-20",
+      "index": 300,
+      "categoryId": "pro",
+      "categoryName": "직군별 특화",
+      "title": "Indie shipping streak commit",
+      "status": "implemented"
+    },
+    {
+      "id": "wellness-1",
+      "index": 301,
+      "categoryId": "wellness",
+      "categoryName": "건강·웰니스",
+      "title": "물 마시기 30분 알림",
+      "status": "implemented"
+    },
+    {
+      "id": "wellness-2",
+      "index": 302,
+      "categoryId": "wellness",
+      "categoryName": "건강·웰니스",
+      "title": "자세 교정 리마인더",
+      "status": "implemented"
+    },
+    {
+      "id": "wellness-3",
+      "index": 303,
+      "categoryId": "wellness",
+      "categoryName": "건강·웰니스",
+      "title": "눈 Blinking 20초 가이드",
+      "status": "implemented"
+    },
+    {
+      "id": "wellness-4",
+      "index": 304,
+      "categoryId": "wellness",
+      "categoryName": "건강·웰니스",
+      "title": "4-7-8 호흡 가이드",
+      "status": "implemented"
+    },
+    {
+      "id": "wellness-5",
+      "index": 305,
+      "categoryId": "wellness",
+      "categoryName": "건강·웰니스",
+      "title": "일일 걸음 수 수동 기록",
+      "status": "implemented"
+    },
+    {
+      "id": "wellness-6",
+      "index": 306,
+      "categoryId": "wellness",
+      "categoryName": "건강·웰니스",
+      "title": "수면 목표 vs 화면 시간 비교",
+      "status": "implemented"
+    },
+    {
+      "id": "wellness-7",
+      "index": 307,
+      "categoryId": "wellness",
+      "categoryName": "건강·웰니스",
+      "title": "카페인 컷오프 15시 알림",
+      "status": "implemented"
+    },
+    {
+      "id": "wellness-8",
+      "index": 308,
+      "categoryId": "wellness",
+      "categoryName": "건강·웰니스",
+      "title": "스트레칭 5분 타이머",
+      "status": "implemented"
+    },
+    {
+      "id": "wellness-9",
+      "index": 309,
+      "categoryId": "wellness",
+      "categoryName": "건강·웰니스",
+      "title": "명상 3분 타이머",
+      "status": "implemented"
+    },
+    {
+      "id": "wellness-10",
+      "index": 310,
+      "categoryId": "wellness",
+      "categoryName": "건강·웰니스",
+      "title": "목·어깨 이완 알림",
+      "status": "implemented"
+    },
+    {
+      "id": "wellness-11",
+      "index": 311,
+      "categoryId": "wellness",
+      "categoryName": "건강·웰니스",
+      "title": "혈압/심박 수동 기록",
+      "status": "implemented"
+    },
+    {
+      "id": "wellness-12",
+      "index": 312,
+      "categoryId": "wellness",
+      "categoryName": "건강·웰니스",
+      "title": "약 복용 리마인더",
+      "status": "implemented"
+    },
+    {
+      "id": "wellness-13",
+      "index": 313,
+      "categoryId": "wellness",
+      "categoryName": "건강·웰니스",
+      "title": "점심 후 산책 제안",
+      "status": "implemented"
+    },
+    {
+      "id": "wellness-14",
+      "index": 314,
+      "categoryId": "wellness",
+      "categoryName": "건강·웰니스",
+      "title": "저녁 디지털 디톡스 21시",
+      "status": "implemented"
+    },
+    {
+      "id": "wellness-15",
+      "index": 315,
+      "categoryId": "wellness",
+      "categoryName": "건강·웰니스",
+      "title": "주간 수면 부채 계산",
+      "status": "implemented"
+    },
+    {
+      "id": "wellness-16",
+      "index": 316,
+      "categoryId": "wellness",
+      "categoryName": "건강·웰니스",
+      "title": "블루라이트 휴식 제안",
+      "status": "implemented"
+    },
+    {
+      "id": "wellness-17",
+      "index": 317,
+      "categoryId": "wellness",
+      "categoryName": "건강·웰니스",
+      "title": "식사 3끼 체크",
+      "status": "implemented"
+    },
+    {
+      "id": "wellness-18",
+      "index": 318,
+      "categoryId": "wellness",
+      "categoryName": "건강·웰니스",
+      "title": "활동량 부족 경고",
+      "status": "implemented"
+    },
+    {
+      "id": "wellness-19",
+      "index": 319,
+      "categoryId": "wellness",
+      "categoryName": "건강·웰니스",
+      "title": "스트레스 1-5 기록",
+      "status": "implemented"
+    },
+    {
+      "id": "wellness-20",
+      "index": 320,
+      "categoryId": "wellness",
+      "categoryName": "건강·웰니스",
+      "title": "웰니스 주간 리포트",
+      "status": "implemented"
+    },
+    {
+      "id": "smart-1",
+      "index": 321,
+      "categoryId": "smart",
+      "categoryName": "AI·스마트 추천",
+      "title": "오늘 집중 예측 점수",
+      "status": "implemented"
+    },
+    {
+      "id": "smart-2",
+      "index": 322,
+      "categoryId": "smart",
+      "categoryName": "AI·스마트 추천",
+      "title": "최적 작업 시간대 추천",
+      "status": "implemented"
+    },
+    {
+      "id": "smart-3",
+      "index": 323,
+      "categoryId": "smart",
+      "categoryName": "AI·스마트 추천",
+      "title": "내일 목표 자동 제안",
+      "status": "implemented"
+    },
+    {
+      "id": "smart-4",
+      "index": 324,
+      "categoryId": "smart",
+      "categoryName": "AI·스마트 추천",
+      "title": "산만 패턴 자동 설명",
+      "status": "implemented"
+    },
+    {
+      "id": "smart-5",
+      "index": 325,
+      "categoryId": "smart",
+      "categoryName": "AI·스마트 추천",
+      "title": "프로젝트 우선순위 제안",
+      "status": "implemented"
+    },
+    {
+      "id": "smart-6",
+      "index": 326,
+      "categoryId": "smart",
+      "categoryName": "AI·스마트 추천",
+      "title": "회의 vs 딥워크 코칭",
+      "status": "implemented"
+    },
+    {
+      "id": "smart-7",
+      "index": 327,
+      "categoryId": "smart",
+      "categoryName": "AI·스마트 추천",
+      "title": "컨텍스트 스위치 비용 환산",
+      "status": "implemented"
+    },
+    {
+      "id": "smart-8",
+      "index": 328,
+      "categoryId": "smart",
+      "categoryName": "AI·스마트 추천",
+      "title": "집중 저하 원인 Top3",
+      "status": "implemented"
+    },
+    {
+      "id": "smart-9",
+      "index": 329,
+      "categoryId": "smart",
+      "categoryName": "AI·스마트 추천",
+      "title": "주간 개선 1가지 제안",
+      "status": "implemented"
+    },
+    {
+      "id": "smart-10",
+      "index": 330,
+      "categoryId": "smart",
+      "categoryName": "AI·스마트 추천",
+      "title": "골든아워 자동 알림",
+      "status": "implemented"
+    },
+    {
+      "id": "smart-11",
+      "index": 331,
+      "categoryId": "smart",
+      "categoryName": "AI·스마트 추천",
+      "title": "앱 사용 AI 한 줄 요약",
+      "status": "implemented"
+    },
+    {
+      "id": "smart-12",
+      "index": 332,
+      "categoryId": "smart",
+      "categoryName": "AI·스마트 추천",
+      "title": "오늘 MIT AI 추천",
+      "status": "implemented"
+    },
+    {
+      "id": "smart-13",
+      "index": 333,
+      "categoryId": "smart",
+      "categoryName": "AI·스마트 추천",
+      "title": "에너지 곡선 예측",
+      "status": "implemented"
+    },
+    {
+      "id": "smart-14",
+      "index": 334,
+      "categoryId": "smart",
+      "categoryName": "AI·스마트 추천",
+      "title": "습관 실패 원인 분석",
+      "status": "implemented"
+    },
+    {
+      "id": "smart-15",
+      "index": 335,
+      "categoryId": "smart",
+      "categoryName": "AI·스마트 추천",
+      "title": "목표 달성 확률 %",
+      "status": "implemented"
+    },
+    {
+      "id": "smart-16",
+      "index": 336,
+      "categoryId": "smart",
+      "categoryName": "AI·스마트 추천",
+      "title": "집중 break 타이밍 제안",
+      "status": "implemented"
+    },
+    {
+      "id": "smart-17",
+      "index": 337,
+      "categoryId": "smart",
+      "categoryName": "AI·스마트 추천",
+      "title": "카테고리 rebalance 제안",
+      "status": "implemented"
+    },
+    {
+      "id": "smart-18",
+      "index": 338,
+      "categoryId": "smart",
+      "categoryName": "AI·스마트 추천",
+      "title": "주말 vs 평일 코칭",
+      "status": "implemented"
+    },
+    {
+      "id": "smart-19",
+      "index": 339,
+      "categoryId": "smart",
+      "categoryName": "AI·스마트 추천",
+      "title": "미분류 시간 AI 라벨",
+      "status": "implemented"
+    },
+    {
+      "id": "smart-20",
+      "index": 340,
+      "categoryId": "smart",
+      "categoryName": "AI·스마트 추천",
+      "title": "스마트 인사이트 JSON",
+      "status": "implemented"
+    },
+    {
+      "id": "habit-1",
+      "index": 341,
+      "categoryId": "habit",
+      "categoryName": "습관·루틴",
+      "title": "아침 루틴 체크리스트",
+      "status": "implemented"
+    },
+    {
+      "id": "habit-2",
+      "index": 342,
+      "categoryId": "habit",
+      "categoryName": "습관·루틴",
+      "title": "저녁 셧다운 루틴",
+      "status": "implemented"
+    },
+    {
+      "id": "habit-3",
+      "index": 343,
+      "categoryId": "habit",
+      "categoryName": "습관·루틴",
+      "title": "주간 habit streak",
+      "status": "implemented"
+    },
+    {
+      "id": "habit-4",
+      "index": 344,
+      "categoryId": "habit",
+      "categoryName": "습관·루틴",
+      "title": "습관 7일 배지",
+      "status": "implemented"
+    },
+    {
+      "id": "habit-5",
+      "index": 345,
+      "categoryId": "habit",
+      "categoryName": "습관·루틴",
+      "title": "물+스트레칭 habit stack",
+      "status": "implemented"
+    },
+    {
+      "id": "habit-6",
+      "index": 346,
+      "categoryId": "habit",
+      "categoryName": "습관·루틴",
+      "title": "루틴 템플릿 5종",
+      "status": "implemented"
+    },
+    {
+      "id": "habit-7",
+      "index": 347,
+      "categoryId": "habit",
+      "categoryName": "습관·루틴",
+      "title": "habit skip 사유 기록",
+      "status": "implemented"
+    },
+    {
+      "id": "habit-8",
+      "index": 348,
+      "categoryId": "habit",
+      "categoryName": "습관·루틴",
+      "title": "mini habit 2분",
+      "status": "implemented"
+    },
+    {
+      "id": "habit-9",
+      "index": 349,
+      "categoryId": "habit",
+      "categoryName": "습관·루틴",
+      "title": "habit 완료율 %",
+      "status": "implemented"
+    },
+    {
+      "id": "habit-10",
+      "index": 350,
+      "categoryId": "habit",
+      "categoryName": "습관·루틴",
+      "title": "주간 habit review",
+      "status": "implemented"
+    },
+    {
+      "id": "habit-11",
+      "index": 351,
+      "categoryId": "habit",
+      "categoryName": "습관·루틴",
+      "title": "금주주 알코올 free day",
+      "status": "implemented"
+    },
+    {
+      "id": "habit-12",
+      "index": 352,
+      "categoryId": "habit",
+      "categoryName": "습관·루틴",
+      "title": "독서 20분 habit",
+      "status": "implemented"
+    },
+    {
+      "id": "habit-13",
+      "index": 353,
+      "categoryId": "habit",
+      "categoryName": "습관·루틴",
+      "title": "저널 habit 토글",
+      "status": "implemented"
+    },
+    {
+      "id": "habit-14",
+      "index": 354,
+      "categoryId": "habit",
+      "categoryName": "습관·루틴",
+      "title": "inbox zero habit",
+      "status": "implemented"
+    },
+    {
+      "id": "habit-15",
+      "index": 355,
+      "categoryId": "habit",
+      "categoryName": "습관·루틴",
+      "title": "운동 habit 로그",
+      "status": "implemented"
+    },
+    {
+      "id": "habit-16",
+      "index": 356,
+      "categoryId": "habit",
+      "categoryName": "습관·루틴",
+      "title": "habit 커스텀 시간",
+      "status": "implemented"
+    },
+    {
+      "id": "habit-17",
+      "index": 357,
+      "categoryId": "habit",
+      "categoryName": "습관·루틴",
+      "title": "habit chain 시각화",
+      "status": "implemented"
+    },
+    {
+      "id": "habit-18",
+      "index": 358,
+      "categoryId": "habit",
+      "categoryName": "습관·루틴",
+      "title": "habit buddy 로컬 알림",
+      "status": "implemented"
+    },
+    {
+      "id": "habit-19",
+      "index": 359,
+      "categoryId": "habit",
+      "categoryName": "습관·루틴",
+      "title": "relapse gentle nudge",
+      "status": "implemented"
+    },
+    {
+      "id": "habit-20",
+      "index": 360,
+      "categoryId": "habit",
+      "categoryName": "습관·루틴",
+      "title": "habit CSV export",
+      "status": "implemented"
+    },
+    {
+      "id": "work-1",
+      "index": 361,
+      "categoryId": "work",
+      "categoryName": "업무·협업",
+      "title": "회의 시간 자동 합산",
+      "status": "implemented"
+    },
+    {
+      "id": "work-2",
+      "index": 362,
+      "categoryId": "work",
+      "categoryName": "업무·협업",
+      "title": "딥워크 블록 예약",
+      "status": "implemented"
+    },
+    {
+      "id": "work-3",
+      "index": 363,
+      "categoryId": "work",
+      "categoryName": "업무·협업",
+      "title": "Slack vs focus 비교",
+      "status": "implemented"
+    },
+    {
+      "id": "work-4",
+      "index": 364,
+      "categoryId": "work",
+      "categoryName": "업무·협업",
+      "title": "이메일 batch 11/16",
+      "status": "implemented"
+    },
+    {
+      "id": "work-5",
+      "index": 365,
+      "categoryId": "work",
+      "categoryName": "업무·협업",
+      "title": "standup prep 1-click",
+      "status": "implemented"
+    },
+    {
+      "id": "work-6",
+      "index": 366,
+      "categoryId": "work",
+      "categoryName": "업무·협업",
+      "title": "EOD 리포트 초안",
+      "status": "implemented"
+    },
+    {
+      "id": "work-7",
+      "index": 367,
+      "categoryId": "work",
+      "categoryName": "업무·협업",
+      "title": "billable hours 토글",
+      "status": "implemented"
+    },
+    {
+      "id": "work-8",
+      "index": 368,
+      "categoryId": "work",
+      "categoryName": "업무·협업",
+      "title": "client 태그 빠른 전환",
+      "status": "implemented"
+    },
+    {
+      "id": "work-9",
+      "index": 369,
+      "categoryId": "work",
+      "categoryName": "업무·협업",
+      "title": "sprint 주간 목표",
+      "status": "implemented"
+    },
+    {
+      "id": "work-10",
+      "index": 370,
+      "categoryId": "work",
+      "categoryName": "업무·협업",
+      "title": "meeting-free 수요일",
+      "status": "implemented"
+    },
+    {
+      "id": "work-11",
+      "index": 371,
+      "categoryId": "work",
+      "categoryName": "업무·협업",
+      "title": "async work score",
+      "status": "implemented"
+    },
+    {
+      "id": "work-12",
+      "index": 372,
+      "categoryId": "work",
+      "categoryName": "업무·협업",
+      "title": "office/home 자동 태그",
+      "status": "implemented"
+    },
+    {
+      "id": "work-13",
+      "index": 373,
+      "categoryId": "work",
+      "categoryName": "업무·협업",
+      "title": "VPN=업무 휴리스틱",
+      "status": "implemented"
+    },
+    {
+      "id": "work-14",
+      "index": 374,
+      "categoryId": "work",
+      "categoryName": "업무·협업",
+      "title": "듀얼 모니터 work score",
+      "status": "implemented"
+    },
+    {
+      "id": "work-15",
+      "index": 375,
+      "categoryId": "work",
+      "categoryName": "업무·협업",
+      "title": "리뷰 vs 작성 비율",
+      "status": "implemented"
+    },
+    {
+      "id": "work-16",
+      "index": 376,
+      "categoryId": "work",
+      "categoryName": "업무·협업",
+      "title": "deadline 카운트다운",
+      "status": "implemented"
+    },
+    {
+      "id": "work-17",
+      "index": 377,
+      "categoryId": "work",
+      "categoryName": "업무·협업",
+      "title": "standup 지각 넛지",
+      "status": "implemented"
+    },
+    {
+      "id": "work-18",
+      "index": 378,
+      "categoryId": "work",
+      "categoryName": "업무·협업",
+      "title": "야근 soft warning",
+      "status": "implemented"
+    },
+    {
+      "id": "work-19",
+      "index": 379,
+      "categoryId": "work",
+      "categoryName": "업무·협업",
+      "title": "work shutdown ritual",
+      "status": "implemented"
+    },
+    {
+      "id": "work-20",
+      "index": 380,
+      "categoryId": "work",
+      "categoryName": "업무·협업",
+      "title": "업무 주간 export",
+      "status": "implemented"
+    },
+    {
+      "id": "learn-1",
+      "index": 381,
+      "categoryId": "learn",
+      "categoryName": "학습·성장",
+      "title": "플래시카드 세션 타이머",
+      "status": "implemented"
+    },
+    {
+      "id": "learn-2",
+      "index": 382,
+      "categoryId": "learn",
+      "categoryName": "학습·성장",
+      "title": "강의/영상 학습 태그",
+      "status": "implemented"
+    },
+    {
+      "id": "learn-3",
+      "index": 383,
+      "categoryId": "learn",
+      "categoryName": "학습·성장",
+      "title": "독서 진행 페이지",
+      "status": "implemented"
+    },
+    {
+      "id": "learn-4",
+      "index": 384,
+      "categoryId": "learn",
+      "categoryName": "학습·성장",
+      "title": "언어 학습 streak",
+      "status": "implemented"
+    },
+    {
+      "id": "learn-5",
+      "index": 385,
+      "categoryId": "learn",
+      "categoryName": "학습·성장",
+      "title": "공부 pomodoro 모드",
+      "status": "implemented"
+    },
+    {
+      "id": "learn-6",
+      "index": 386,
+      "categoryId": "learn",
+      "categoryName": "학습·성장",
+      "title": "퀴즈 break 리마인더",
+      "status": "implemented"
+    },
+    {
+      "id": "learn-7",
+      "index": 387,
+      "categoryId": "learn",
+      "categoryName": "학습·성장",
+      "title": "노트앱 집중 시간",
+      "status": "implemented"
+    },
+    {
+      "id": "learn-8",
+      "index": 388,
+      "categoryId": "learn",
+      "categoryName": "학습·성장",
+      "title": "연구 vs 실습 비율",
+      "status": "implemented"
+    },
+    {
+      "id": "learn-9",
+      "index": 389,
+      "categoryId": "learn",
+      "categoryName": "학습·성장",
+      "title": "스킬 태그 라이브러리",
+      "status": "implemented"
+    },
+    {
+      "id": "learn-10",
+      "index": 390,
+      "categoryId": "learn",
+      "categoryName": "학습·성장",
+      "title": "주간 학습 목표",
+      "status": "implemented"
+    },
+    {
+      "id": "learn-11",
+      "index": 391,
+      "categoryId": "learn",
+      "categoryName": "학습·성장",
+      "title": "간격 반복 리마인더",
+      "status": "implemented"
+    },
+    {
+      "id": "learn-12",
+      "index": 392,
+      "categoryId": "learn",
+      "categoryName": "학습·성장",
+      "title": "강의 녹화 태그",
+      "status": "implemented"
+    },
+    {
+      "id": "learn-13",
+      "index": 393,
+      "categoryId": "learn",
+      "categoryName": "학습·성장",
+      "title": "자격증 공부 시간",
+      "status": "implemented"
+    },
+    {
+      "id": "learn-14",
+      "index": 394,
+      "categoryId": "learn",
+      "categoryName": "학습·성장",
+      "title": "책 챕터 진행",
+      "status": "implemented"
+    },
+    {
+      "id": "learn-15",
+      "index": 395,
+      "categoryId": "learn",
+      "categoryName": "학습·성장",
+      "title": "공부 방해 앱 차단",
+      "status": "implemented"
+    },
+    {
+      "id": "learn-16",
+      "index": 396,
+      "categoryId": "learn",
+      "categoryName": "학습·성장",
+      "title": "지식베이스 체류",
+      "status": "implemented"
+    },
+    {
+      "id": "learn-17",
+      "index": 397,
+      "categoryId": "learn",
+      "categoryName": "학습·성장",
+      "title": "튜토리얼 따라하기 태그",
+      "status": "implemented"
+    },
+    {
+      "id": "learn-18",
+      "index": 398,
+      "categoryId": "learn",
+      "categoryName": "학습·성장",
+      "title": "학습 회고 프롬프트",
+      "status": "implemented"
+    },
+    {
+      "id": "learn-19",
+      "index": 399,
+      "categoryId": "learn",
+      "categoryName": "학습·성장",
+      "title": "스터디 export",
+      "status": "implemented"
+    },
+    {
+      "id": "learn-20",
+      "index": 400,
+      "categoryId": "learn",
+      "categoryName": "학습·성장",
+      "title": "학습 주간 리포트",
+      "status": "implemented"
+    },
+    {
+      "id": "balance-1",
+      "index": 401,
+      "categoryId": "balance",
+      "categoryName": "워라밸",
+      "title": "점심 1시간 auto exclude",
+      "status": "implemented"
+    },
+    {
+      "id": "balance-2",
+      "index": 402,
+      "categoryId": "balance",
+      "categoryName": "워라밸",
+      "title": "가족 시간 저녁 태그",
+      "status": "implemented"
+    },
+    {
+      "id": "balance-3",
+      "index": 403,
+      "categoryId": "balance",
+      "categoryName": "워라밸",
+      "title": "주말 업무 경고",
+      "status": "implemented"
+    },
+    {
+      "id": "balance-4",
+      "index": 404,
+      "categoryId": "balance",
+      "categoryName": "워라밸",
+      "title": "휴가 모드 원클릭",
+      "status": "implemented"
+    },
+    {
+      "id": "balance-5",
+      "index": 405,
+      "categoryId": "balance",
+      "categoryName": "워라밸",
+      "title": "병가 모드",
+      "status": "implemented"
+    },
+    {
+      "id": "balance-6",
+      "index": 406,
+      "categoryId": "balance",
+      "categoryName": "워라밸",
+      "title": "출장일 auto tag",
+      "status": "implemented"
+    },
+    {
+      "id": "balance-7",
+      "index": 407,
+      "categoryId": "balance",
+      "categoryName": "워라밸",
+      "title": "반차 AM/PM 프로필",
+      "status": "implemented"
+    },
+    {
+      "id": "balance-8",
+      "index": 408,
+      "categoryId": "balance",
+      "categoryName": "워라밸",
+      "title": "오후 미팅 금지",
+      "status": "implemented"
+    },
+    {
+      "id": "balance-9",
+      "index": 409,
+      "categoryId": "balance",
+      "categoryName": "워라밸",
+      "title": "개인 심부름 태그",
+      "status": "implemented"
+    },
+    {
+      "id": "balance-10",
+      "index": 410,
+      "categoryId": "balance",
+      "categoryName": "워라밸",
+      "title": "취미 시간 보호",
+      "status": "implemented"
+    },
+    {
+      "id": "balance-11",
+      "index": 411,
+      "categoryId": "balance",
+      "categoryName": "워라밸",
+      "title": "SNS 30분 cap",
+      "status": "implemented"
+    },
+    {
+      "id": "balance-12",
+      "index": 412,
+      "categoryId": "balance",
+      "categoryName": "워라밸",
+      "title": "Netflix cap 경고",
+      "status": "implemented"
+    },
+    {
+      "id": "balance-13",
+      "index": 413,
+      "categoryId": "balance",
+      "categoryName": "워라밸",
+      "title": "워라밸 주간 비율",
+      "status": "implemented"
+    },
+    {
+      "id": "balance-14",
+      "index": 414,
+      "categoryId": "balance",
+      "categoryName": "워라밸",
+      "title": "burnout risk score",
+      "status": "implemented"
+    },
+    {
+      "id": "balance-15",
+      "index": 415,
+      "categoryId": "balance",
+      "categoryName": "워라밸",
+      "title": "강제 휴식 enforce",
+      "status": "implemented"
+    },
+    {
+      "id": "balance-16",
+      "index": 416,
+      "categoryId": "balance",
+      "categoryName": "워라밸",
+      "title": "금요일 early stop",
+      "status": "implemented"
+    },
+    {
+      "id": "balance-17",
+      "index": 417,
+      "categoryId": "balance",
+      "categoryName": "워라밸",
+      "title": "요일별 balance 목표",
+      "status": "implemented"
+    },
+    {
+      "id": "balance-18",
+      "index": 418,
+      "categoryId": "balance",
+      "categoryName": "워라밸",
+      "title": "육아 블록 캘린더",
+      "status": "implemented"
+    },
+    {
+      "id": "balance-19",
+      "index": 419,
+      "categoryId": "balance",
+      "categoryName": "워라밸",
+      "title": "partner time 리마인더",
+      "status": "implemented"
+    },
+    {
+      "id": "balance-20",
+      "index": 420,
+      "categoryId": "balance",
+      "categoryName": "워라밸",
+      "title": "balance 대시보드",
+      "status": "implemented"
+    },
+    {
+      "id": "env-1",
+      "index": 421,
+      "categoryId": "env",
+      "categoryName": "환경·절전",
+      "title": "배터리 20% 추적 pause",
+      "status": "implemented"
+    },
+    {
+      "id": "env-2",
+      "index": 422,
+      "categoryId": "env",
+      "categoryName": "환경·절전",
+      "title": "AC 전원만 상세 추적",
+      "status": "implemented"
+    },
+    {
+      "id": "env-3",
+      "index": 423,
+      "categoryId": "env",
+      "categoryName": "환경·절전",
+      "title": "저전력 UI 단순화",
+      "status": "implemented"
+    },
+    {
+      "id": "env-4",
+      "index": 424,
+      "categoryId": "env",
+      "categoryName": "환경·절전",
+      "title": "탄소발자국 추정",
+      "status": "implemented"
+    },
+    {
+      "id": "env-5",
+      "index": 425,
+      "categoryId": "env",
+      "categoryName": "환경·절전",
+      "title": "다크모드 스케줄",
+      "status": "implemented"
+    },
+    {
+      "id": "env-6",
+      "index": 426,
+      "categoryId": "env",
+      "categoryName": "환경·절전",
+      "title": "디스플레이 sleep=휴식",
+      "status": "implemented"
+    },
+    {
+      "id": "env-7",
+      "index": 427,
+      "categoryId": "env",
+      "categoryName": "환경·절전",
+      "title": "발열 throttle pause",
+      "status": "implemented"
+    },
+    {
+      "id": "env-8",
+      "index": 428,
+      "categoryId": "env",
+      "categoryName": "환경·절전",
+      "title": "배터리 XP 보너스",
+      "status": "implemented"
+    },
+    {
+      "id": "env-9",
+      "index": 429,
+      "categoryId": "env",
+      "categoryName": "환경·절전",
+      "title": "절전 메뉴바 아이콘",
+      "status": "implemented"
+    },
+    {
+      "id": "env-10",
+      "index": 430,
+      "categoryId": "env",
+      "categoryName": "환경·절전",
+      "title": "월간 kWh 추정",
+      "status": "implemented"
+    },
+    {
+      "id": "env-11",
+      "index": 431,
+      "categoryId": "env",
+      "categoryName": "환경·절전",
+      "title": "에코 챌린지 주간",
+      "status": "implemented"
+    },
+    {
+      "id": "env-12",
+      "index": 432,
+      "categoryId": "env",
+      "categoryName": "환경·절전",
+      "title": "밝기 vs 집중",
+      "status": "implemented"
+    },
+    {
+      "id": "env-13",
+      "index": 433,
+      "categoryId": "env",
+      "categoryName": "환경·절전",
+      "title": "프린터 idle detect",
+      "status": "implemented"
+    },
+    {
+      "id": "env-14",
+      "index": 434,
+      "categoryId": "env",
+      "categoryName": "환경·절전",
+      "title": "주변기기 연결 태그",
+      "status": "implemented"
+    },
+    {
+      "id": "env-15",
+      "index": 435,
+      "categoryId": "env",
+      "categoryName": "환경·절전",
+      "title": "Dock 분리 detect",
+      "status": "implemented"
+    },
+    {
+      "id": "env-16",
+      "index": 436,
+      "categoryId": "env",
+      "categoryName": "환경·절전",
+      "title": "lid close 즉시 pause",
+      "status": "implemented"
+    },
+    {
+      "id": "env-17",
+      "index": 437,
+      "categoryId": "env",
+      "categoryName": "환경·절전",
+      "title": "클램쉘 모드 태그",
+      "status": "implemented"
+    },
+    {
+      "id": "env-18",
+      "index": 438,
+      "categoryId": "env",
+      "categoryName": "환경·절전",
+      "title": "배터리 건강 리마인더",
+      "status": "implemented"
+    },
+    {
+      "id": "env-19",
+      "index": 439,
+      "categoryId": "env",
+      "categoryName": "환경·절전",
+      "title": "환경 주간 요약",
+      "status": "implemented"
+    },
+    {
+      "id": "env-20",
+      "index": 440,
+      "categoryId": "env",
+      "categoryName": "환경·절전",
+      "title": "eco goal 설정",
+      "status": "implemented"
+    },
+    {
+      "id": "quick-1",
+      "index": 441,
+      "categoryId": "quick",
+      "categoryName": "빠른 실행",
+      "title": "글로벌 quick note",
+      "status": "implemented"
+    },
+    {
+      "id": "quick-2",
+      "index": 442,
+      "categoryId": "quick",
+      "categoryName": "빠른 실행",
+      "title": "클립보드 히스토리 10",
+      "status": "implemented"
+    },
+    {
+      "id": "quick-3",
+      "index": 443,
+      "categoryId": "quick",
+      "categoryName": "빠른 실행",
+      "title": "최근 태그 재적용",
+      "status": "implemented"
+    },
+    {
+      "id": "quick-4",
+      "index": 444,
+      "categoryId": "quick",
+      "categoryName": "빠른 실행",
+      "title": "집중 25m 원탭",
+      "status": "implemented"
+    },
+    {
+      "id": "quick-5",
+      "index": 445,
+      "categoryId": "quick",
+      "categoryName": "빠른 실행",
+      "title": "휴식 5m 원탭",
+      "status": "implemented"
+    },
+    {
+      "id": "quick-6",
+      "index": 446,
+      "categoryId": "quick",
+      "categoryName": "빠른 실행",
+      "title": "오늘 JSON 원탭",
+      "status": "implemented"
+    },
+    {
+      "id": "quick-7",
+      "index": 447,
+      "categoryId": "quick",
+      "categoryName": "빠른 실행",
+      "title": "타임라인 원탭",
+      "status": "implemented"
+    },
+    {
+      "id": "quick-8",
+      "index": 448,
+      "categoryId": "quick",
+      "categoryName": "빠른 실행",
+      "title": "주간 리포트 원탭",
+      "status": "implemented"
+    },
+    {
+      "id": "quick-9",
+      "index": 449,
+      "categoryId": "quick",
+      "categoryName": "빠른 실행",
+      "title": "넛지 토글 원탭",
+      "status": "implemented"
+    },
+    {
+      "id": "quick-10",
+      "index": 450,
+      "categoryId": "quick",
+      "categoryName": "빠른 실행",
+      "title": "휴식 알림 토글",
+      "status": "implemented"
+    },
+    {
+      "id": "quick-11",
+      "index": 451,
+      "categoryId": "quick",
+      "categoryName": "빠른 실행",
+      "title": "현재 태그 복사",
+      "status": "implemented"
+    },
+    {
+      "id": "quick-12",
+      "index": 452,
+      "categoryId": "quick",
+      "categoryName": "빠른 실행",
+      "title": "집중 stats Markdown",
+      "status": "implemented"
+    },
+    {
+      "id": "quick-13",
+      "index": 453,
+      "categoryId": "quick",
+      "categoryName": "빠른 실행",
+      "title": "설정 점프",
+      "status": "implemented"
+    },
+    {
+      "id": "quick-14",
+      "index": 454,
+      "categoryId": "quick",
+      "categoryName": "빠른 실행",
+      "title": "위젯 reload",
+      "status": "implemented"
+    },
+    {
+      "id": "quick-15",
+      "index": 455,
+      "categoryId": "quick",
+      "categoryName": "빠른 실행",
+      "title": "DB repair 원탭",
+      "status": "implemented"
+    },
+    {
+      "id": "quick-16",
+      "index": 456,
+      "categoryId": "quick",
+      "categoryName": "빠른 실행",
+      "title": "타임라인 PNG share",
+      "status": "implemented"
+    },
+    {
+      "id": "quick-17",
+      "index": 457,
+      "categoryId": "quick",
+      "categoryName": "빠른 실행",
+      "title": "프로젝트 태그 pin",
+      "status": "implemented"
+    },
+    {
+      "id": "quick-18",
+      "index": 458,
+      "categoryId": "quick",
+      "categoryName": "빠른 실행",
+      "title": "태그 전체 unpin",
+      "status": "implemented"
+    },
+    {
+      "id": "quick-19",
+      "index": 459,
+      "categoryId": "quick",
+      "categoryName": "빠른 실행",
+      "title": "7일 sparkline 복사",
+      "status": "implemented"
+    },
+    {
+      "id": "quick-20",
+      "index": 460,
+      "categoryId": "quick",
+      "categoryName": "빠른 실행",
+      "title": "퀵액션 팔레트+",
+      "status": "implemented"
+    },
+    {
+      "id": "insight2-1",
+      "index": 461,
+      "categoryId": "insight2",
+      "categoryName": "고급 분석",
+      "title": "지난달 cohort 비교",
+      "status": "implemented"
+    },
+    {
+      "id": "insight2-2",
+      "index": 462,
+      "categoryId": "insight2",
+      "categoryName": "고급 분석",
+      "title": "다음주 focus 예측",
+      "status": "implemented"
+    },
+    {
+      "id": "insight2-3",
+      "index": 463,
+      "categoryId": "insight2",
+      "categoryName": "고급 분석",
+      "title": "이상치 day detect",
+      "status": "implemented"
+    },
+    {
+      "id": "insight2-4",
+      "index": 464,
+      "categoryId": "insight2",
+      "categoryName": "고급 분석",
+      "title": "카테고리 drift alert",
+      "status": "implemented"
+    },
+    {
+      "id": "insight2-5",
+      "index": 465,
+      "categoryId": "insight2",
+      "categoryName": "고급 분석",
+      "title": "태그 entropy score",
+      "status": "implemented"
+    },
+    {
+      "id": "insight2-6",
+      "index": 466,
+      "categoryId": "insight2",
+      "categoryName": "고급 분석",
+      "title": "focus volatility",
+      "status": "implemented"
+    },
+    {
+      "id": "insight2-7",
+      "index": 467,
+      "categoryId": "insight2",
+      "categoryName": "고급 분석",
+      "title": "이달 best/worst hour",
+      "status": "implemented"
+    },
+    {
+      "id": "insight2-8",
+      "index": 468,
+      "categoryId": "insight2",
+      "categoryName": "고급 분석",
+      "title": "프로젝트 velocity",
+      "status": "implemented"
+    },
+    {
+      "id": "insight2-9",
+      "index": 469,
+      "categoryId": "insight2",
+      "categoryName": "고급 분석",
+      "title": "meeting creep detect",
+      "status": "implemented"
+    },
+    {
+      "id": "insight2-10",
+      "index": 470,
+      "categoryId": "insight2",
+      "categoryName": "고급 분석",
+      "title": "deep work decay",
+      "status": "implemented"
+    },
+    {
+      "id": "insight2-11",
+      "index": 471,
+      "categoryId": "insight2",
+      "categoryName": "고급 분석",
+      "title": "rolling 4주 평균",
+      "status": "implemented"
+    },
+    {
+      "id": "insight2-12",
+      "index": 472,
+      "categoryId": "insight2",
+      "categoryName": "고급 분석",
+      "title": "self history percentile",
+      "status": "implemented"
+    },
+    {
+      "id": "insight2-13",
+      "index": 473,
+      "categoryId": "insight2",
+      "categoryName": "고급 분석",
+      "title": "계절 패턴 detect",
+      "status": "implemented"
+    },
+    {
+      "id": "insight2-14",
+      "index": 474,
+      "categoryId": "insight2",
+      "categoryName": "고급 분석",
+      "title": "공휴일 보정 stats",
+      "status": "implemented"
+    },
+    {
+      "id": "insight2-15",
+      "index": 475,
+      "categoryId": "insight2",
+      "categoryName": "고급 분석",
+      "title": "휴가 후 regression",
+      "status": "implemented"
+    },
+    {
+      "id": "insight2-16",
+      "index": 476,
+      "categoryId": "insight2",
+      "categoryName": "고급 분석",
+      "title": "stat confidence",
+      "status": "implemented"
+    },
+    {
+      "id": "insight2-17",
+      "index": 477,
+      "categoryId": "insight2",
+      "categoryName": "고급 분석",
+      "title": "insight bundle export",
+      "status": "implemented"
+    },
+    {
+      "id": "insight2-18",
+      "index": 478,
+      "categoryId": "insight2",
+      "categoryName": "고급 분석",
+      "title": "커스텀 metric formula",
+      "status": "implemented"
+    },
+    {
+      "id": "insight2-19",
+      "index": 479,
+      "categoryId": "insight2",
+      "categoryName": "고급 분석",
+      "title": "KPI 3개 pin",
+      "status": "implemented"
+    },
+    {
+      "id": "insight2-20",
+      "index": 480,
+      "categoryId": "insight2",
+      "categoryName": "고급 분석",
+      "title": "로컬 insight draft",
+      "status": "implemented"
+    },
+    {
+      "id": "comfort-1",
+      "index": 481,
+      "categoryId": "comfort",
+      "categoryName": "편의·접근성",
+      "title": "큰 글씨 모드",
+      "status": "implemented"
+    },
+    {
+      "id": "comfort-2",
+      "index": 482,
+      "categoryId": "comfort",
+      "categoryName": "편의·접근성",
+      "title": "고대비 모드",
+      "status": "implemented"
+    },
+    {
+      "id": "comfort-3",
+      "index": 483,
+      "categoryId": "comfort",
+      "categoryName": "편의·접근성",
+      "title": "투명도 줄이기",
+      "status": "implemented"
+    },
+    {
+      "id": "comfort-4",
+      "index": 484,
+      "categoryId": "comfort",
+      "categoryName": "편의·접근성",
+      "title": "키보드 nav 힌트",
+      "status": "implemented"
+    },
+    {
+      "id": "comfort-5",
+      "index": 485,
+      "categoryId": "comfort",
+      "categoryName": "편의·접근성",
+      "title": "VoiceOver 라벨",
+      "status": "implemented"
+    },
+    {
+      "id": "comfort-6",
+      "index": 486,
+      "categoryId": "comfort",
+      "categoryName": "편의·접근성",
+      "title": "sticky focus UI",
+      "status": "implemented"
+    },
+    {
+      "id": "comfort-7",
+      "index": 487,
+      "categoryId": "comfort",
+      "categoryName": "편의·접근성",
+      "title": "색맹 안전 차트",
+      "status": "implemented"
+    },
+    {
+      "id": "comfort-8",
+      "index": 488,
+      "categoryId": "comfort",
+      "categoryName": "편의·접근성",
+      "title": "난독증 friendly font",
+      "status": "implemented"
+    },
+    {
+      "id": "comfort-9",
+      "index": 489,
+      "categoryId": "comfort",
+      "categoryName": "편의·접근성",
+      "title": "minimal motion",
+      "status": "implemented"
+    },
+    {
+      "id": "comfort-10",
+      "index": 490,
+      "categoryId": "comfort",
+      "categoryName": "편의·접근성",
+      "title": "원핸드 compact",
+      "status": "implemented"
+    },
+    {
+      "id": "comfort-11",
+      "index": 491,
+      "categoryId": "comfort",
+      "categoryName": "편의·접근성",
+      "title": "tooltip 항상 표시",
+      "status": "implemented"
+    },
+    {
+      "id": "comfort-12",
+      "index": 492,
+      "categoryId": "comfort",
+      "categoryName": "편의·접근성",
+      "title": "파괴적 action confirm",
+      "status": "implemented"
+    },
+    {
+      "id": "comfort-13",
+      "index": 493,
+      "categoryId": "comfort",
+      "categoryName": "편의·접근성",
+      "title": "세그먼트 edit undo",
+      "status": "implemented"
+    },
+    {
+      "id": "comfort-14",
+      "index": 494,
+      "categoryId": "comfort",
+      "categoryName": "편의·접근성",
+      "title": "즐겨찾기 상단 pin",
+      "status": "implemented"
+    },
+    {
+      "id": "comfort-15",
+      "index": 495,
+      "categoryId": "comfort",
+      "categoryName": "편의·접근성",
+      "title": "최근 기능 목록",
+      "status": "implemented"
+    },
+    {
+      "id": "comfort-16",
+      "index": 496,
+      "categoryId": "comfort",
+      "categoryName": "편의·접근성",
+      "title": "검색 동의어",
+      "status": "implemented"
+    },
+    {
+      "id": "comfort-17",
+      "index": 497,
+      "categoryId": "comfort",
+      "categoryName": "편의·접근성",
+      "title": "오프라인 표시",
+      "status": "implemented"
+    },
+    {
+      "id": "comfort-18",
+      "index": 498,
+      "categoryId": "comfort",
+      "categoryName": "편의·접근성",
+      "title": "저대역폭 모드",
+      "status": "implemented"
+    },
+    {
+      "id": "comfort-19",
+      "index": 499,
+      "categoryId": "comfort",
+      "categoryName": "편의·접근성",
+      "title": "첫 실행 팁 dismiss",
+      "status": "implemented"
+    },
+    {
+      "id": "comfort-20",
+      "index": 500,
+      "categoryId": "comfort",
+      "categoryName": "편의·접근성",
+      "title": "comfort 설정 reset",
+      "status": "implemented"
+    }
+  ]
+}

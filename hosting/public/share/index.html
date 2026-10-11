@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LifeLogger · 지금 하는 일</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg1: #0f172a;
+      --bg2: #1e3a5f;
+      --card: rgba(255, 255, 255, 0.08);
+      --border: rgba(255, 255, 255, 0.18);
+      --text: #f8fafc;
+      --muted: rgba(248, 250, 252, 0.72);
+      --accent: #7dd3fc;
+      --green: #4ade80;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Rounded", "Apple SD Gothic Neo", sans-serif;
+      background: radial-gradient(circle at top, var(--bg2), var(--bg1));
+      color: var(--text);
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+    .card {
+      width: min(440px, 100%);
+      border-radius: 24px;
+      padding: 28px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      backdrop-filter: blur(18px);
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--green);
+      margin-bottom: 16px;
+    }
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: var(--green);
+      box-shadow: 0 0 10px rgba(74, 222, 128, 0.8);
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+      line-height: 1.2;
+    }
+    .subtitle {
+      margin: 0 0 20px;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.5;
+      word-break: break-word;
+    }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .stat {
+      padding: 12px;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .stat-label {
+      font-size: 11px;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+    .stat-value {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--accent);
+    }
+    .goal {
+      margin: 0 0 20px;
+      padding: 14px 16px;
+      border-radius: 14px;
+      background: rgba(125, 211, 252, 0.12);
+      border: 1px solid rgba(125, 211, 252, 0.28);
+      font-size: 15px;
+      line-height: 1.5;
+      word-break: break-word;
+    }
+    .goal-label {
+      font-size: 11px;
+      color: var(--muted);
+      margin-bottom: 6px;
+      font-weight: 700;
+    }
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    .empty {
+      text-align: center;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main class="card" id="card">
+    <div class="empty">공유 정보를 불러오는 중…</div>
+  </main>
+  <script>
+    const params = new URLSearchParams(location.search);
+    const app = params.get("app") || "";
+    const title = params.get("title") || "";
+    const category = params.get("cat") || "기타";
+    const focus = Math.min(100, Math.max(0, parseInt(params.get("focus") || "0", 10)));
+    const elapsed = Math.max(0, parseInt(params.get("elapsed") || "0", 10));
+    const from = params.get("from") || "";
+    const goal = params.get("goal") || "";
+    const ts = parseInt(params.get("ts") || "0", 10);
+
+    function formatElapsed(seconds) {
+      const m = Math.floor(seconds / 60);
+      const s = seconds % 60;
+      return `${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
+    }
+
+    function formatSharedAt(unix) {
+      if (!unix) return "방금 전";
+      const date = new Date(unix * 1000);
+      return date.toLocaleString("ko-KR", {
+        month: "short",
+        day: "numeric",
+        hour: "2-digit",
+        minute: "2-digit"
+      });
+    }
+
+    const card = document.getElementById("card");
+    if (!app) {
+      card.innerHTML = `
+        <div class="empty">
+          <h1>공유 링크가 올바르지 않아요</h1>
+          <p>LifeLogger에서 다시 공유해 주세요.</p>
+        </div>`;
+    } else {
+      const headline = title ? `${app} — ${title}` : app;
+      const senderLine = from ? `<strong>${from}</strong> 님이 공유한 현재 활동` : "LifeLogger 공유";
+      const goalBlock = goal
+        ? `<div class="goal"><div class="goal-label">오늘 목표</div>${goal}</div>`
+        : "";
+      card.innerHTML = `
+        <div class="badge"><span class="dot"></span> 진행 중</div>
+        <h1>${headline}</h1>
+        <p class="subtitle">${senderLine}</p>
+        ${goalBlock}
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-label">카테고리</div>
+            <div class="stat-value">${category}</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">이 활동</div>
+            <div class="stat-value">${formatElapsed(elapsed)}</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">오늘 집중</div>
+            <div class="stat-value">${focus}%</div>
+          </div>
+        </div>
+        <div class="footer">공유 시각 · ${formatSharedAt(ts)}<br />LifeLogger에서 전달된 스냅샷입니다.</div>`;
+      document.title = `${app} · LifeLogger`;
+    }
+  </script>
+</body>
+</html>
